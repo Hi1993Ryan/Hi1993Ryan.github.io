@@ -9,18 +9,17 @@ description: "Mailing and office addresses at the University of Place."
 
 #### Mailing address
 
-Department of Subject
-University of Place
-Street
-City, State, Zip
+School of Public Policy and Administration
+Chongqing University
+Shazheng St.
+Chongqing, China, 400044
 
 ---
 
 #### Office address
 
-Room Number  
-Building Name 
-University of Place
+Please hit me up when on site   
+Chongqing University
 
 ---
 
