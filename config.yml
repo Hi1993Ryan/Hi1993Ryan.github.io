@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Prof. Name
+baseURL: "https://github.com/Hi1993Ryan/Hi1993Ryan.github.io" 
+title: Dr. Jiangrui Liu
 paginate: 20
 theme: PaperMod
 
@@ -25,7 +25,7 @@ menu:
           weight: 4
 
 params:
-    description: "I am a Professor of Subject at the University of Place. My research covers various topics.
+    description: "I am a lecturer of School of Public Policy & Administration at Chongqing University. My research covers various topics.
 consequat."
     author: Name
     # googleAnalyticsID: "G-XXXXX"
@@ -50,12 +50,12 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: Prof. Namely Name
-          subtitle: "I am a Professor of Subject at the University of Place. I work on various topics. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
-          imageUrl: "picture.jpeg"
+          title: Dr. Jiangrui Liu
+          subtitle: "I am a lecturer of School of Public Policy & Administration at Chongqing University. My research covers various topics: Multilevel modelling, political science, longitudinal modelling, life course research, mental health and wellbeing, social epidemiology."
+          imageUrl: "ava.jpg"
           imageWidth: 160
           imageHeight: 160
-          imageTitle: Prof. Name
+          imageTitle: Dr. Jiangrui Liu
           buttons:
             - name: Papers
               url: papers/
@@ -63,31 +63,31 @@ consequat."
               url: courses/
             - name: Data
               url: data/
-            - name: Newsletter
-              url: https://pmichaillat.substack.com
+            #- name: Newsletter
+            #  url: https://pmichaillat.substack.com
             - name: Tags
               url: tags/
-            - name: Archive
-              url: archive/
+            - name: 	Misc.
+              url: misc./
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:pascal.michaillat@gmail.com
+          url: mailto:ljr17@tsinghua.org.cn
         - name: Location
           url: location/
         - name: Office Hours
           url: officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
+          url: https://scholar.google.com/citations?user=C_gAro8AAAAJ&hl=en
+        #- name: YouTube
+        #  url: https://www.youtube.com/@pmichaillat
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: Twitter
-          url: https://twitter.com/pmichaillat
+          url: https://github.com/Hi1993Ryan
+        #- name: Substack
+        #  url: https://pmichaillat.substack.com
+        #- name: Twitter
+        #  url: https://twitter.com/pmichaillat
 
     assets:
         disableHLJS: true
@@ -96,7 +96,7 @@ consequat."
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Prof. Name"
+      text: "Dr. Jiangrui Liu"
       icon: favicon.ico
       iconHeight: 18
 
