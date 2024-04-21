@@ -19,7 +19,7 @@ Shazheng St., Chongqing, China, 400044
 
 #### Office address
 
-Please hit me up when on site   
+Please hit me up when on site!
 
 Chongqing University
 
