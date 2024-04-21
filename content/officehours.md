@@ -4,7 +4,7 @@ hidemeta: true
 description: "Schedule and location for office hours."
 ---
 
---- 
+---
 #### Schedule
 
 Office hours take place on Day at Hour.
@@ -13,7 +13,7 @@ Office hours take place on Day at Hour.
 
 #### Location
 
-By default meetings are in my office. I am also available for virtual meetings on Zoom.
+请尽量提前1天预约，我也方便进行线上会议。
 
 ---
 
