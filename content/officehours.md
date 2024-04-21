@@ -13,7 +13,7 @@ Office hours take place on Day at Hour.
 
 #### Location
 
-请尽量提前1天预约，我也方便进行线上会议。
+请尽量提前1天预约具体地点，我也方便进行线上会议。
 
 ---
 
