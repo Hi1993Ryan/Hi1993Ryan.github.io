@@ -71,7 +71,7 @@ consequat."
               url: misc./
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: cv/ #cv.pdf
         - name: Email
           url: mailto:ljr17@tsinghua.org.cn
         - name: Location
