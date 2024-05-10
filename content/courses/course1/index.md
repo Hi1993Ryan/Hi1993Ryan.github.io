@@ -6,7 +6,7 @@ author: "Prof. Name"
 description: "This graduate course presents things." 
 summary: "This graduate course presents various methods and results." 
 cover:
-    image: "course1.png"
+    image: "机关事务.jpg"
     alt: "Figure caption"
     relative: false
 editPost:
@@ -88,6 +88,4 @@ This section introduces other things.
 ## Part 3
 
 This section turns to other things. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+consequat.
