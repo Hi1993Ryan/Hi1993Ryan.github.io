@@ -2,12 +2,6 @@
 title: "Résumé"
 hidemeta: true
 description: "basic into of personal experience."
-
-<style>
-td, th {
-   border: none!important;
-}
-</style>
 ---
 
 
@@ -86,6 +80,12 @@ td, th {
 政法学院 - 国际政治专业-->
 
 
+
+<style>
+td, th {
+   border: none!important;
+}
+</style>
 
 | <!--机构/单位-->                                             | <!--时间范围-->  | <!--职位-->                     |
 | ------------------------------------------------------------ | ---------------- | ------------------------------- |
