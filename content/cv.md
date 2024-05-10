@@ -35,7 +35,13 @@ description: "basic into of personal experience."
 公共管理学院 - 行政管理系-->
 <!--*讲师*-->  
 
+
+
 ## 教育背景
+
+---
+
+* 
 
 * 清华大学&emsp;&emsp;&emsp;&emsp;&emsp;2017~2021&emsp;&emsp;&emsp;&emsp; 博士
 * 澳门科技大学&emsp;&emsp;&emsp;&emsp;&emsp;2019~06&emsp;&emsp;&emsp;&emsp; 访问学者
