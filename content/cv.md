@@ -44,7 +44,7 @@ description: "basic into of personal experience."
 
 ---
 
-* 清华大学&emsp;&emsp; &emsp;&emsp;&emsp;2017~2021&emsp;&emsp;&emsp;&emsp; 博士
+* 清华大学&emsp;&emsp;&emsp;              2017~2021&emsp;&emsp;&emsp;&emsp; 博士
 * 澳门科技大学&emsp;&emsp;&emsp;&emsp;&emsp;2019~06&emsp;&emsp;&emsp;&emsp; 访问学者
 * 中国人民大学&emsp;&emsp;&emsp;&emsp;&emsp;2015~2017&emsp;&emsp;&emsp;&emsp; 硕士
 * 东北师范大学&emsp;&emsp;&emsp;&emsp;&emsp;2011~2015&emsp;&emsp;&emsp;&emsp; 学士
