@@ -10,7 +10,7 @@ description: "basic into of personal experience."
 ---
 
 * 重庆大学&emsp;&emsp;&emsp;&emsp;&emsp;2024~至今&emsp;&emsp;&emsp;&emsp; 公共管理学学院 | 行政管理系副主任
-* 中国21世纪议程管理中心（科技部→国家自然科学基金委员会）<font size=5>我是尺寸</font>&emsp;&emsp;&emsp;&emsp;&emsp;2023~2024&emsp;&emsp;&emsp;&emsp; 项目主管（借调）
+* 中国21世纪议程管理中心<font size=2>（科技部→国家自然科学基金委员会）</font>&emsp;&emsp;&emsp;&emsp;&emsp;2023~2024&emsp;&emsp;&emsp;&emsp; 项目主管（借调）
 * 重庆大学&emsp;&emsp;&emsp;&emsp;&emsp;2022~至今&emsp;&emsp;&emsp;&emsp; 公共管理学院 | 讲师
 
 ### <!--2024.03 - 至今-->
