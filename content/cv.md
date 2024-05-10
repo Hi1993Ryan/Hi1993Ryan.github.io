@@ -1,5 +1,5 @@
 ---
-title: "简历"
+title: "Résumé"
 hidemeta: true
 description: "basic into of personal experience."
 
