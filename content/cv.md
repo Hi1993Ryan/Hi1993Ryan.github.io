@@ -3,7 +3,14 @@ title: "Résumé"
 hidemeta: true
 description: "basic into of personal experience."
 
+<style>
+td, th {
+   border: none!important;
+}
+</style>
 ---
+
+
 
 ## 工作经历
 
@@ -43,7 +50,7 @@ description: "basic into of personal experience."
 
 ---
 
-* 清华大学       &emsp;&emsp; &emsp;&emsp;&emsp;2017~2021&emsp;&emsp;&emsp;&emsp; 博士
+* 清华大学&emsp;&emsp; &emsp;&emsp;&emsp;2017~2021&emsp;&emsp;&emsp;&emsp; 博士
 * 澳门科技大学&emsp;&emsp;&emsp;&emsp;&emsp;2019~06&emsp;&emsp;&emsp;&emsp; 访问学者
 * 中国人民大学&emsp;&emsp;&emsp;&emsp;&emsp;2015~2017&emsp;&emsp;&emsp;&emsp; 硕士
 * 东北师范大学&emsp;&emsp;&emsp;&emsp;&emsp;2011~2015&emsp;&emsp;&emsp;&emsp; 学士
@@ -77,3 +84,22 @@ description: "basic into of personal experience."
 <!--**东北师范大学**  
 *学士*  
 政法学院 - 国际政治专业-->
+
+
+
+
+
+| 机构/单位                                               | 时间范围  | 职位                     |
+| ------------------------------------------------------- | --------- | ------------------------ |
+| 重庆大学 公共管理学学院                                 | 2024~至今 | 行政管理系 &#124; 副主任 |
+| 中国21世纪议程管理中心（科技部→国家自然科学基金委员会） | 2023~2024 | 项目主管（借调）         |
+| 重庆大学 公共管理学院                                   | 2022~至今 | 讲师                     |
+
+
+
+| 机构/单位    | 时间范围  | 学历/职位 |
+| ------------ | --------- | --------- |
+| 清华大学     | 2017~2021 | 博士      |
+| 澳门科技大学 | 2019~06   | 访问学者  |
+| 中国人民大学 | 2015~2017 | 硕士      |
+| 东北师范大学 | 2011~2015 | 学士      |
