@@ -9,7 +9,7 @@ description: "Mailing and office addresses at the University of Place."
 
 #### Mailing address
 
-School of Public Policy and Administration  
+School of Public Policy and Administration
 
 Chongqing University
 
@@ -19,9 +19,7 @@ Shazheng St., Chongqing, China, 400044
 
 #### Office address
 
-Please hit me up when on site!
-
-Chongqing University
+Anywhere. Please hit me up when on site around Chongqing!
 
 ---
 
