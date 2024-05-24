@@ -1,19 +1,7 @@
 ---
 layout: cv
-title: Ben Moore's CV
+title: Papers
 ---
-# Benjamin L. Moore
-Bioinformatics PhD and Solutions Architect
-
-<div id="webaddress">
-<a href="mailto:ben@blm.io">ben@blm.io</a>
-|
-<i class="fa fa-github"></i> <a href="http://github.com/blmoore">blmoore</a>
-|
-<i class="fa fa-twitter"></i> <a href="http://twitter.com/benjaminlmoore">benjaminlmoore</a>
-</div>
-
-
 ## Currently
 
 I'm a Senior Bioinformatics Scientist at [Illumina](http://www.illumina.com/), based at their R&D site near Cambridge in the UK. Here I work on solutions to key informatics hurdles in the sequencing space, such as efficient and automated bioinformatics data analysis. I enjoy solving hard problems by writing quality software, preferably leveraging modern programming languages, agile development practices and effective cloud services.
@@ -30,18 +18,13 @@ __Illumina, Inc.__ Bioinformatics Scientist (data scientist and statistical prog
 
 ## Technical skills
 
-* Python
-* Javascript (incl. Typescript, React)
 * R
-* Go
-* AWS
-* UNIX
-* Cluster computing
-* Docker
+* Stata
+* *LaTeX*
+* Markdown
+* Zotero
 * Git and GitHub
 * HTML and CSS
-* Bash
-* Agile development
 
 ## Education
 
@@ -58,17 +41,17 @@ __University of York__ BSc Biology (_First class honours_)
 
 `2021-24` __AWS Certified Solutions Architect__ (_Associate_)
 
-## Areas of expertise
+## <!--Areas of expertise-->
 
-* Bioinformatics
-* Software development
-* Cloud engineering and automation
-* Single-page applications
-* Population genomics
-* Machine learning
-* Data visualisation
-* Variant calling
-* Illumina sequencing data
+* <!--Bioinformatics-->
+* <!--Software development-->
+* <!--Cloud engineering and automation-->
+* <!--Single-page applications-->
+* <!--Population genomics-->
+* <!--Machine learning-->
+* <!--Data visualisation-->
+* <!--Variant calling-->
+* <!--Illumina sequencing data-->
 
 ## Publications
 
