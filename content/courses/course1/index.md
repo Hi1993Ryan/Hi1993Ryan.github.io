@@ -33,16 +33,9 @@ This course covers research topics related to things. It tries to answer several
 
 This section reviews things.
 
-##### Lecture videos
-
-1. [Video Title 1](https://youtu.be/0rbmjemhy38)
-2. [Video Title 2](https://youtu.be/a2tbm5ljZJM)
-3. [Video Title 3](https://youtu.be/bz2mXgo7Kj0)
-4. [Video Title 4](https://youtu.be/rA4S9lFiU3o)
-
 ##### Lecture notes
 
-+ [Lecture Note Title 1](lecture1.pdf)
++ 
 
 ##### Readings
 
@@ -53,7 +46,6 @@ This section reviews things.
 ##### Homework
 
 + [Quiz 1](quiz1.pdf)
-+ [Problem set 1](ps1.pdf)
 
 ---
 
@@ -61,31 +53,9 @@ This section reviews things.
 
 This section introduces other things.
 
-##### Lecture videos
-
-5. [Video Title 5](https://youtu.be/tU0dtS9iiOk)
-6. [Video Title 6](https://youtu.be/GMIKykwvrGI)
-7. [Video Title 7](https://youtu.be/79MSNfp1rw0)
-8. [Video Title 8](https://youtu.be/zEShE10YiYo)
-9. [Video Title 9](https://youtu.be/SNlHsn7isog)
-
-##### Lecture notes
-
-+ [Lecture Note Title 2](lecture2.pdf)
-
-##### Readings
-
-+ [Paper Title 4](https://doi.org/10.1093/restud/rdy030) – This paper shows stuff.
-+ [Paper Title 5](https://doi.org/10.1093/jeea/jvaa041) – This paper shows other things.
-
-##### Homework
-
-+ [Quiz 2](quiz2.pdf)
-+ [Problem Set 2](ps2.pdf)
-
 ---
 
 ## Part 3
 
-This section turns to other things. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+This section turns to other things.
 consequat.
