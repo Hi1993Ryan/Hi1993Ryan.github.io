@@ -1,9 +1,9 @@
 ---
 title: "科研项目" 
-date: 主持人
+#date: 2024-01-12
 url: projects/
 tags: ["中国政治","政治态度","社会观念","社会网络","生命历程","Text Analysis","科技管理","比较政治","量化研究方法","计算社会科学","时空演变","Cohort"]
-author: "刘江锐"
+author: "主持人：刘江锐"
 description: "This book reviews facts about business cycles, develops a matching model to explain them, and discusses how monetary and fiscal policy can stabilize them."
 summary: "This book reviews basic facts about business cycles. It then develops a matching model to explain these business-cycle facts. Finally, it explains how monetary policy and government spending should be designed to stabilize business cycles." 
 cover:
