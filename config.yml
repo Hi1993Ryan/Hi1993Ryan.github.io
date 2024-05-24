@@ -20,8 +20,8 @@ menu:
         - name: Projects
           url: projects/
           weight: 3 
-        - name: Newsletter
-          url: https://pmichaillat.substack.com
+        #- name: Newsletter
+        # url: https://pmichaillat.substack.com
           weight: 4
 
 params:
