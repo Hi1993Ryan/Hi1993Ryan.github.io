@@ -1,6 +1,6 @@
 ---
 title: "国家社会科学基金青年项目" 
-date: 2023-09-07
+date: 2022-10-07
 tags: ["keyword 5","keyword 6","keyword 7","keyword 10"]
 author: ["刘江锐"]
 description: "This dataset contains things."
@@ -10,8 +10,25 @@ summary: "民粹倾向的变迁态势及应对策略研究（22CZZ044）"
     # alt: "Figure caption"
     # relative: false
 editPost:
-    URL: "https://github.com/pmichaillat/squareroot-uv"
-    Text: "GitHub repository"
+    URL: "https://fz.people.com.cn/skygb/sk/index.php/Index/seach"
+    Text: "Link"
+showToc: true
+disableAnchoredHeadings: false
+
+
+title: "国家社会科学基金青年项目" 
+date: 2022-10-07
+tags: ["keyword 5","keyword 6","keyword 7","keyword 10"]
+author: ["刘江锐"]
+description: "This dataset contains things."
+summary: "民粹倾向的变迁态势及应对策略研究（22CZZ044）"
+# cover:
+    # image: "/data1.png"
+    # alt: "Figure caption"
+    # relative: false
+editPost:
+    URL: "https://fz.people.com.cn/skygb/sk/index.php/Index/seach"
+    Text: "Link"
 showToc: true
 disableAnchoredHeadings: false
 
