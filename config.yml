@@ -67,7 +67,7 @@ consequat."
             #  url: https://pmichaillat.substack.com
             - name: Tags
               url: tags/
-            - name: 	Misc.
+            - name: Misc.
               url: misc./
     socialIcons:
         - name: CV
