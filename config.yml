@@ -18,7 +18,7 @@ menu:
           url: courses/
           weight: 2
         - name: Projects
-          url: data/
+          url: /projects/
           weight: 3 
         - name: Newsletter
           url: https://pmichaillat.substack.com
@@ -62,7 +62,7 @@ consequat."
             - name: Courses
               url: courses/
             - name: Projects
-              url: data/
+              url: /projects/
             #- name: Newsletter
             #  url: https://pmichaillat.substack.com
             - name: Tags
