@@ -20,7 +20,7 @@ disableAnchoredHeadings: false
 
 <div class="thinline"></div>
 
-#### If you have comments or suggestions about these projects, would like to discuss, or simply discover gaps to work together, please [do email me](mailto:pascal.michaillat@gmail.com).
+#### If you have comments or suggestions about these projects, would like to discuss, or simply discover gaps to work together, please [do email me](mailto:ljr17@tsinghua.org.cn).
 
 <div class="thinline"></div>
 
