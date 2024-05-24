@@ -1,6 +1,6 @@
 ---
 title: "中国博士后科学基金第71批面上资助" 
-date: 2022
+date: 2022-07-07
 tags: ["keyword 5","keyword 6","keyword 7","keyword 10"]
 author: ["刘江锐"]
 description: "This dataset contains things."
