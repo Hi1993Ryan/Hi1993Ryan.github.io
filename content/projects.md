@@ -1,7 +1,7 @@
 ---
 title: "Slackish Business Cycles" 
 date: 2024-01-12
-url: /b1/
+url: projects/
 tags: ["Beveridge curve","business cycles","economic slack","efficiency","government spending","matching function","monetary policy","price rigidity","stabilization policy","sufficient statistics","unemployment gap","Phillips curve"]
 author: "Pascal Michaillat"
 description: "This book reviews facts about business cycles, develops a matching model to explain them, and discusses how monetary and fiscal policy can stabilize them."
