@@ -59,10 +59,10 @@ consequat."
           buttons:
             - name: Papers
               url: papers/
+            - name: Projects
+                url: data/
             - name: Courses
               url: courses/
-            - name: Data
-              url: data/
             #- name: Newsletter
             #  url: https://pmichaillat.substack.com
             - name: Tags

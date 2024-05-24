@@ -1,4 +1,4 @@
 ---
-title: "Data"
-description: "Datasets on various topics."
+title: "Projects"
+description: "Research Projects With Funds"
 ---
