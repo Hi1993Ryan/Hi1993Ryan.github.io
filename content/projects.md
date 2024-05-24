@@ -24,13 +24,14 @@ disableAnchoredHeadings: false
 
 <div class="thinline"></div>
 
-## 国家社会科学基金青年项目
+## * 国家社会科学基金青年项目
 
 ### 民粹倾向的变迁态势及应对策略研究（22CZZ044）
 
 <div class="thinline"></div>
+&nbsp;
 
-## 中国博士后科学基金第71批面上资助
+## * 中国博士后科学基金第71批面上资助
 
 ### 人大法案修改能力的实证测量与提升机制研究（2022M710538）
 
@@ -40,8 +41,9 @@ disableAnchoredHeadings: false
 + Chapter 3. Fluctuations in slack -->
 
 <div class="thinline"></div>
+&nbsp;
 
-## 中央高校基本科研业务费（社科类）
+## * 中央高校基本科研业务费（社科类）
 
 ### 公众民粹倾向演变的实证研究（2023CDJSKJJ12）
 
@@ -56,10 +58,11 @@ The matching model requires to specify price norms. Theoretically, there are man
 +  --> 
 
 <div class="thinline"></div>
+&nbsp;
 
-## 中央高校基本科研业务费（师生能力提升专项——自科类）
+## * 中央高校基本科研业务费（师生能力提升专项——自科类）
 
-### 社发领域重点研发计划合作网络影响科研绩效机理研究
+### 社发领域重点研发计划合作网络影响科研绩效机理研究（2023CDJXY-002）
 
 <!-- This section presents a dynamic version of the slackish business-cycle model. In the dynamic model, unemployment is determined by the intersection of an aggregate demand curve, stemming from households' Euler equation, and an aggregate supply curve, corresponding to the Beveridge curve.
 
