@@ -1,6 +1,6 @@
 ---
 title: "计算社会科学与研究范式之争：理论的终结？" 
-date: 2015-12-01
+date: 2021-03-25
 tags: ["计算社会科学","大数据","研究范式","因果推断"]
 author: ["苏毓淞", "刘江锐"]
 description: "This paper shows other things. Published in Journal Name, 2015." 

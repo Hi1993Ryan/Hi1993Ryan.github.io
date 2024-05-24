@@ -1,8 +1,8 @@
 ---
-title: "统计分析方法与美国政治学研究" 
-date: 2020-06-15
+title: "国家重点研发计划项目成果后评估试点实践研究" 
+date: 2024-09-01
 tags: ["美国政治","研究方法","统计分析","定量分析"]
-author: ["苏毓淞", "刘江锐"]
+author: ["李堂军", "张巧显", "杨帆", "贾国伟", "刘江锐", "柯兵"]
 description: "This paper shows things. Published in Journal Name, 2012." 
 summary: "This paper shows things using various techniques and data." 
 cover:
@@ -11,7 +11,7 @@ cover:
     relative: false
 editPost:
     URL: "https://is.gd/bf5ort"
-    Text: "美国研究"
+    Text: "中国科技资源导刊"
 
 ---
 
