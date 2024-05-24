@@ -1,6 +1,6 @@
 ---
-title: "Slackish Business Cycles" 
-date: 2024-01-12
+title: "科研项目" 
+date: 主持人
 url: projects/
 tags: ["中国政治","政治态度","社会观念","社会网络","生命历程","Text Analysis","科技管理","比较政治","量化研究方法","计算社会科学","时空演变","Cohort"]
 author: "刘江锐"
@@ -20,9 +20,7 @@ disableAnchoredHeadings: false
 
 <div class="thinline"></div>
 
-I'm currently working on a book about slackish business cycles: economic fluctuations seen through the prism of economic slack. I'll post new chapters of the book here as they are written. This is preliminary material, but I opted to share it nevertheless to elicit comments and start a conversation with interested readers. The material might also be helpful to students and researchers who are interested in similar topics.
-
-If you have comments or suggestions about the material, would like to discuss parts of the book, or simply discover typos, please [do email me](mailto:pascal.michaillat@gmail.com).
+If you have comments or suggestions about these projects, would like to discuss, or simply discover gaps to work together, please [do email me](mailto:pascal.michaillat@gmail.com).
 
 <div class="thinline"></div>
 
