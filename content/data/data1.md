@@ -1,10 +1,10 @@
 ---
-title: "Dataset Title" 
+title: "国家社会科学基金青年项目" 
 date: 2023-09-07
 tags: ["keyword 5","keyword 6","keyword 7","keyword 10"]
-author: ["Author Name 1", "Author Name 2", "Author Name 3"]
+author: ["刘江锐"]
 description: "This dataset contains things."
-summary: "This dataset contains information on things in several countries."
+summary: "民粹倾向的变迁态势及应对策略研究（22CZZ044）"
 # cover:
     # image: "/data1.png"
     # alt: "Figure caption"
