@@ -31,9 +31,9 @@ disableAnchoredHeadings: false
 <div class="thinline"></div>
 &nbsp;
 
-## 中国博士后科学基金第71批面上资助
+## 中国博士后科学基金面上资助
 
-* ### 人大法案修改能力的实证测量与提升机制研究（2022M710538）
+* ### 人大法案修改能力的实证测量与提升机制研究（2022M710538）<!--第71批-->
 
 <!-- This first section reviews basic facts about business cycles. It decomposes business-cycle fluctuations into two components: fluctuations in productive capacity, and fluctuations in capacity utilization. It finds that the vast majority of business-cycle fluctuations are caused by fluctuations in capacity utilization--or equivalently fluctuations in slack. It also shows that such fluctuations in slack impose large welfare costs, due to the large non-monetary costs of unemployment. -->
 

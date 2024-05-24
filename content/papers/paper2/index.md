@@ -1,8 +1,8 @@
 ---
-title: "Paper Title 2" 
+title: "计算社会科学与研究范式之争：理论的终结？" 
 date: 2015-12-01
-tags: ["keyword 1","keyword 2","keyword 4"]
-author: ["Author Name 1", "Author Name 2"]
+tags: ["计算社会科学","大数据","研究范式","因果推断"]
+author: ["苏毓淞", "刘江锐"]
 description: "This paper shows other things. Published in Journal Name, 2015." 
 summary: "This paper shows other things using other techniques and different data." 
 cover:
@@ -10,8 +10,8 @@ cover:
     alt: "Image caption"
     relative: false
 editPost:
-    URL: "https://doi.org/10.1073/pnas.1816454115"
-    Text: "Other Journal Name"
+    URL: "https://is.gd/Xz2rWW"
+    Text: "复旦学报"
 
 ---
 
