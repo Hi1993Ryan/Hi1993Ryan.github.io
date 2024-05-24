@@ -12,7 +12,7 @@ taxonomies:
 menu:
     main:
         - name: Papers
-          url: papers/
+          url: pubs/
           weight: 1
         - name: Courses
           url: courses/
@@ -58,7 +58,7 @@ consequat."
           imageTitle: Dr. Jiangrui Liu
           buttons:
             - name: Papers
-              url: papers/
+              url: pubs/
             - name: Courses
               url: courses/
             - name: Projects
