@@ -1,7 +1,7 @@
 ---
 title: "中国博士后科学基金第71批面上资助" 
 date: 2022-07-07
-tags: ["keyword 5","keyword 6","keyword 7","keyword 10"]
+tags: ["法案文本","大数据","立法过程","计算社会科学"]
 author: ["刘江锐"]
 description: "This dataset contains things."
 summary: "人大法案修改能力的实证测量与提升机制研究（2022M710538）"
