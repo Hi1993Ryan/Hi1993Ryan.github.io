@@ -3,8 +3,11 @@ layout: cv
 title: Papers
 ---
 ### Journal articles
-`2015`
-__Moore BL__ _et al._ Integrative modeling reveals the principles of multi-scale chromatin boundary formation in human nuclear organization. _Genome Biology_, 16:110.
+`2024`
+__Jiangrui Liu__ & Hui Yang. Divergence in Chinese Sexual Attitudes: An Age-Period-Cohort Analysis. _Archives of Sexual Behavior_, forthcoming.
+
+`2024`
+李堂军, 张巧显, 杨帆, 贾国伟, __刘江锐__, & 柯兵. 国家重点研发计划项目成果后评估试点实践研究. _中国科技资源导刊_, 待刊.
 
 `2021`
 苏毓淞 & __刘江锐__. 计算社会科学与研究范式之争:理论的终结? _复旦学报(社会科学版)_, 63(2), 189–196.
@@ -34,12 +37,12 @@ Available on request.
 
 Last updated: May 2024 -->
 
-## Employment
+## <!--Employment-->
 
-`2020-` 
-__Illumina, Inc.__ Senior Bioinformatics Scientist (software engineer and solutions architect). 
-> My work includes integrating Illumina's best-in-class _DRAGEN_ bioinformatics analysis pipelines with our flagship cloud platforms (_BaseSpace Sequence Hub_ and _Illumina Connected Analytics_). I also develop public tools such as the BaseSpace Sequence Hub Commandline Interface, alongside many other internal software engineering projects ranging from bioinformatics scripts to web applications.
+<!--`2020-`--> 
+<!--__Illumina, Inc.__ Senior Bioinformatics Scientist (software engineer and solutions architect).--> 
+> <!--My work includes integrating Illumina's best-in-class _DRAGEN_ bioinformatics analysis pipelines with our flagship cloud platforms (_BaseSpace Sequence Hub_ and _Illumina Connected Analytics_). I also develop public tools such as the BaseSpace Sequence Hub Commandline Interface, alongside many other internal software engineering projects ranging from bioinformatics scripts to web applications.-->
 
-`2015-20` 
-__Illumina, Inc.__ Bioinformatics Scientist (data scientist and statistical programmer).
-> I joined Illumina's R&D organisation in 2015 where I worked on a wide range of bioinformatics and data science projects. Some public-facing work focused on variant comparison and analysis tooling, and I also advanced the popular _Platinum Genomes_ gold-standard variant truthset by introducing novel validation methods.
+<!--`2015-20`--> 
+<!--__Illumina, Inc.__ Bioinformatics Scientist (data scientist and statistical programmer).-->
+> <!--I joined Illumina's R&D organisation in 2015 where I worked on a wide range of bioinformatics and data science projects. Some public-facing work focused on variant comparison and analysis tooling, and I also advanced the popular _Platinum Genomes_ gold-standard variant truthset by introducing novel validation methods.-->
