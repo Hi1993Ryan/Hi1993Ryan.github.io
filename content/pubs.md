@@ -19,9 +19,13 @@ __Jiangrui Liu__ & Hui Yang. Divergence in Chinese Sexual Attitudes: An Age-Peri
 
 `2019`
 孫思宇, __劉江銳__, & 李卓航. (2019). 數據分析方法在粵港澳大灣區發展中的應用前景. _澳門研究(Macau Studies)_, 92, 96–98.
-
+&nbsp;
 ## Book chapters
 
 `2023`
 两篇论文收录于：张小劲 & 景跃进. _百年变局与中国政治学的时代化：清华政治学系的探索_. 中央编译出版社
+&nbsp;
+## Working Papers
 
+<!--`with`
+：张小劲 & 景跃进. _百年变局与中国政治学的时代化：清华政治学系的探索_. 中央编译出版社-->
