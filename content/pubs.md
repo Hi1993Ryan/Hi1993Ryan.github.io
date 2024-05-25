@@ -1,6 +1,7 @@
 ---
 layout: cv
 title: Papers
+author: 刘江锐
 ---
 ## Journal articles
 
