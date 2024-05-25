@@ -37,9 +37,7 @@ This section reviews things.
 
 ##### Readings
 
-+ Paper 1 – This paper finds things.
-+ Paper 2 – This paper reviews things.
-+ Paper 3 – This paper reviews more things and derives some results.
++ Paper – This paper finds things.
 
 ##### Homework
 
