@@ -6,7 +6,7 @@
     <description>Recent content in Courses on Dr. Jiangrui Liu | 刘江锐 博士</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Course Title 2</title>
       <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/courses/course2/</link>
@@ -14,15 +14,6 @@
       
       <guid>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/courses/course2/</guid>
       <description>This undergraduate course presents many new things.</description>
-    </item>
-    
-    <item>
-      <title>国家机关事务管理 | National Government Office Management</title>
-      <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/courses/course1/</link>
-      <pubDate>Thu, 01 Jan 1970 08:33:44 +0800</pubDate>
-      
-      <guid>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/courses/course1/</guid>
-      <description>This graduate course presents things.</description>
     </item>
     
   </channel>

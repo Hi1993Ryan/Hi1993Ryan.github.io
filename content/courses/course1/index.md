@@ -1,6 +1,6 @@
 ---
 title: "国家机关事务管理 | National Government Office Management"
-date: 2024
+date: 2024-09-16
 tags: ["机关事务","过程管理","集中统一"]
 author: "Prof. Name"
 description: "This graduate course presents things." 
@@ -22,9 +22,7 @@ disableAnchoredHeadings: false
 This course covers research topics related to things. It tries to answer several questions: 
 
 + Why this? 
-+ Why that? 
 + What about this? 
-+ What about that?
 
 
 ---
@@ -39,13 +37,13 @@ This section reviews things.
 
 ##### Readings
 
-+ [Paper Title 1](https://doi.org/10.1257/aer.102.4.1721) – This paper finds things.
-+ [Paper Title 2](https://doi.org/10.1257/mac.6.1.190) – This paper reviews things.
-+ [Paper Title 3](https://doi.org/10.1093/qje/qjv006) – This paper reviews more things and derives some results.
++ Paper 1 – This paper finds things.
++ Paper 2 – This paper reviews things.
++ Paper 3 – This paper reviews more things and derives some results.
 
 ##### Homework
 
-+ [Quiz 1](quiz1.pdf)
++ Quiz
 
 ---
 
