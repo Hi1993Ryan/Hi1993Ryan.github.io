@@ -24,17 +24,3 @@ __Jiangrui Liu__ & Hui Yang. Divergence in Chinese Sexual Attitudes: An Age-Peri
 `2023`
 两篇论文收录于：张小劲 & 景跃进. _百年变局与中国政治学的时代化：清华政治学系的探索_. 中央编译出版社
 
-## Non-academic
-
-`2014` Pieces in _The Huffington Post_ (US): Here Are the Most Overrated and Underrated Movies of All Time; Celebrity Twitter Followers, by Gender ([huffingtonpost.com/benjamin-moore](http://www.huffingtonpost.com/benjamin-moore/))
-
-`2006–` Articles for _English Wikipedia_: European Nucleotide Archive, RNA thermometer, Toxin-antitoxin system and more ([en.wikipedia.org/wiki/User:Ben_Moore](https://en.wikipedia.org/wiki/User:Ben_Moore)).
-
-## References
-
-Available on request.
-
-<!-- ### Footer
-
-Last updated: May 2024 -->
-
