@@ -2,9 +2,6 @@
 title: "Résumé"
 hidemeta: true
 description: "basic into of personal experience."
-<style> 
-  h2  { COLOR:STEELBLUE }
-</style>
 ---
 
 &nbsp;
