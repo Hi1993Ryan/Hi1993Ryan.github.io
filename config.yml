@@ -51,7 +51,7 @@ consequat."
     profileMode:
           enabled: true
           title: Dr. Jiangrui Liu
-          subtitle: "I am a faculty member at the School of Public Policy and Administration, Chongqing University. My current research interests, which are dynamic and evolving, span several fields: political attitudes and social change (with a focus on life course studies), public governance, comparative politics, computational social science, and quantitative methods. <br>我是重庆大学公共管理学院的老师，目前的研究兴趣（兴趣会流动）涉及：政治态度与社会观念变迁（涉及生命历程研究）、公共治理、比较政治、计算社会科学、量化研究方法。"
+          subtitle: "I am a faculty member at the School of Public Policy and Administration, Chongqing University. My current research interests, which are dynamic and evolving, span several fields: political attitudes and social change (with a focus on life course studies), public governance, comparative politics, computational social science, and quantitative methods. <br>我是重庆大学公共管理学院的一名老师，目前的研究兴趣（兴趣会流动）涉及：政治态度与社会观念变迁（涉及生命历程研究）、公共治理、比较政治、计算社会科学、量化研究方法。"
           imageUrl: "ava.jpg"
           imageWidth: 160
           imageHeight: 160
