@@ -23,7 +23,6 @@ disableAnchoredHeadings: true
 * #### 民粹倾向的变迁态势及应对策略研究（22CZZ044）
 
 <div class="thinline"></div>
-&nbsp;
 
 ### 中国博士后科学基金面上资助
 
@@ -35,7 +34,6 @@ disableAnchoredHeadings: true
 + Chapter 3. Fluctuations in slack -->
 
 <div class="thinline"></div>
-&nbsp;
 
 ### 中央高校基本科研业务费（社科类）
 
@@ -52,7 +50,6 @@ The matching model requires to specify price norms. Theoretically, there are man
 +  --> 
 
 <div class="thinline"></div>
-&nbsp;
 
 ### 中央高校基本科研业务费（师生能力提升专项——自科类）
 
@@ -69,6 +66,7 @@ An advantage of moving to a dynamic environment is that interest rates appear in
 <div class="thinline"></div>
 
 <div class="thinline"></div>
+&nbsp;
 
 #### If you have comments or suggestions about these projects, would like to discuss, or simply discover gaps to work together, please [do email me](mailto:ljr17@tsinghua.org.cn).
 
