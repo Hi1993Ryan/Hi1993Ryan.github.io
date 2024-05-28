@@ -2,7 +2,7 @@
 title: "国家机关事务管理 | National Government Office Management"
 date: 2024-09-16
 tags: ["机关事务","过程管理","集中统一"]
-author: "Prof. Name"
+author: ["刘江锐"]
 description: "This graduate course presents things." 
 summary: "This graduate course presents various methods and results." 
 cover:

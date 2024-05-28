@@ -1,6 +1,6 @@
 ---
 title: "政治学原理" 
-date: 2021-06-16
+date: 2025-03-15
 tags: ["政治社会化"]
 author: ["刘江锐"]
 description: "This undergraduate course presents many new things." 
