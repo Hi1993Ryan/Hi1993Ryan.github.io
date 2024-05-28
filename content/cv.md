@@ -4,7 +4,6 @@ hidemeta: true
 description: "basic into of personal experience."
 ---
 
-&nbsp;
 
 ## 工作经历
 ---
@@ -13,39 +12,27 @@ description: "basic into of personal experience."
 * 中国21世纪议程管理中心<br><font size=2>（科技部→国家自然科学基金委员会）</font>&emsp;&emsp;&ensp;&nbsp;2023~2024&emsp;&emsp;&emsp;&emsp;&nbsp; 项目主管（借调）
 
 &nbsp;
-&nbsp;
 ## 教育背景
 ---
 * 清华大学&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&ensp;&nbsp;2017~2021&emsp;&emsp;&emsp;&emsp; 博士
-* 澳门科技大学&emsp;&emsp;&emsp;&emsp;&emsp;2019.6&emsp;&emsp;&emsp;&emsp; &ensp;&ensp;&nbsp;&nbsp;&nbsp;访问学者
+* 澳门科技大学&emsp;&emsp;&emsp;&emsp;&emsp;2019.6&emsp;&emsp;&emsp;&emsp; &ensp;&ensp;&nbsp;&nbsp;&nbsp; 访问学者
 * 中国人民大学&emsp;&emsp;&emsp;&emsp;&emsp;2015~2017&emsp;&emsp;&emsp;&emsp; 硕士
 * 东北师范大学&emsp;&emsp;&emsp;&emsp;&emsp;2011~2015&emsp;&emsp;&emsp;&emsp; 学士
 
 &nbsp;
-&nbsp;
-## Certifications
+## Certificates & Trainings
 ---
-`2021-24` __AWS Certified Solutions Architect__ (_Associate_)
+`2022-07` 北京大学·社会科学中的数据、软件与前沿方法暑期研修班
+`2018-12` 清华大学“学术信息分析可视化”训练营
+`2018-08` 清华--知网大数据社会科学讲习班学员
+`2012-07` 中国联合国协会人权知识培训班学员
 
-&nbsp;
 &nbsp;
 ## Awards
 ---
-MRC Capacity building scholarship (PhD fees + enhanced stipend)
+`2019-12` 台湾政治学会年会·最佳论文奖（黄纪教授研究方法奖）
+`2018-08` 清华--知网大数据社会科学讲习班创意课题二等奖
 
-MRC Full postgraduate scholarship (MSc fees + stipend)
-
-ISCB computational biology Wikipedia competition 2013 ([doi:10.1371/journal.pcbi.1003242](http://dx.doi.org/10.1371/journal.pcbi.1003242); 2nd place)
-
-Imperial Create Lab's "Summer data challenge" ([summerdatachallenge.com](http://summerdatachallenge.com); 3rd place)
-
-Individual engagement grant from the Wikimedia Foundation to attend ISMB 2014
-
-Training accreditation for Wikimedia UK, the national chapter of the Wikimedia Foundation
-
-Front cover design selected for J. Comp. Chem. (34:22) ([doi:10.1002/jcc.23388](http://dx.doi.org/10.1002/jcc.23388))
-
-&nbsp;
 &nbsp;
 ## Technical skills
 ---
@@ -61,7 +48,6 @@ Front cover design selected for J. Comp. Chem. (34:22) ([doi:10.1002/jcc.23388](
 * Git and GitHub
 * HTML and CSS
 
-&nbsp;
 &nbsp;
 ## References
 
