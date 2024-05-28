@@ -14,20 +14,20 @@ cover:
 #     URL: "https://github.com/pmichaillat/business-cycles/"
 #     Text: "Bank of Italy course portal"
 # showToc: true
-disableAnchoredHeadings: false
+disableAnchoredHeadings: true
 
 ---
 
-## 国家社会科学基金青年项目
+### 国家社会科学基金青年项目
 
-* ### 民粹倾向的变迁态势及应对策略研究（22CZZ044）
+* #### 民粹倾向的变迁态势及应对策略研究（22CZZ044）
 
 <div class="thinline"></div>
 &nbsp;
 
-## 中国博士后科学基金面上资助
+### 中国博士后科学基金面上资助
 
-* ### 人大法案修改能力的实证测量与提升机制研究（2022M710538）<!--第71批-->
+* #### 人大法案修改能力的实证测量与提升机制研究（2022M710538）<!--第71批-->
 
 <!-- This first section reviews basic facts about business cycles. It decomposes business-cycle fluctuations into two components: fluctuations in productive capacity, and fluctuations in capacity utilization. It finds that the vast majority of business-cycle fluctuations are caused by fluctuations in capacity utilization--or equivalently fluctuations in slack. It also shows that such fluctuations in slack impose large welfare costs, due to the large non-monetary costs of unemployment. -->
 
@@ -37,9 +37,9 @@ disableAnchoredHeadings: false
 <div class="thinline"></div>
 &nbsp;
 
-## 中央高校基本科研业务费（社科类）
+### 中央高校基本科研业务费（社科类）
 
-* ### 公众民粹倾向演变的实证研究（2023CDJSKJJ12）
+* #### 公众民粹倾向演变的实证研究（2023CDJSKJJ12）
 
 <!-- This section develops a slackish model of business cycles. The model is static. It is built around a matching function. The matching function summarizes the complex process through which workers searching for jobs meet firms searching for employees, and firms searching for customers meet consumers searching for sellers. Because of the matching function, self-employed workers are not able to sell all their services: there is always some slack.  -->
 
@@ -54,9 +54,9 @@ The matching model requires to specify price norms. Theoretically, there are man
 <div class="thinline"></div>
 &nbsp;
 
-## 中央高校基本科研业务费（师生能力提升专项——自科类）
+### 中央高校基本科研业务费（师生能力提升专项——自科类）
 
-* ### 社发领域重点研发计划合作网络影响科研绩效机理研究（2023CDJXY-002）
+* #### 社发领域重点研发计划合作网络影响科研绩效机理研究（2023CDJXY-002）
 
 <!-- This section presents a dynamic version of the slackish business-cycle model. In the dynamic model, unemployment is determined by the intersection of an aggregate demand curve, stemming from households' Euler equation, and an aggregate supply curve, corresponding to the Beveridge curve.
 
