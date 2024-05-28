@@ -18,12 +18,6 @@ disableAnchoredHeadings: false
 
 ---
 
-<div class="thinline"></div>
-
-#### If you have comments or suggestions about these projects, would like to discuss, or simply discover gaps to work together, please [do email me](mailto:ljr17@tsinghua.org.cn).
-
-<div class="thinline"></div>
-
 ## 国家社会科学基金青年项目
 
 * ### 民粹倾向的变迁态势及应对策略研究（22CZZ044）
@@ -71,5 +65,11 @@ An advantage of moving to a dynamic environment is that interest rates appear in
 <!-- + Chapter 14.
 + Chapter 15.
 + . -->
+
+<div class="thinline"></div>
+
+<div class="thinline"></div>
+
+#### If you have comments or suggestions about these projects, would like to discuss, or simply discover gaps to work together, please [do email me](mailto:ljr17@tsinghua.org.cn).
 
 <div class="thinline"></div>

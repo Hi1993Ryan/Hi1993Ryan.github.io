@@ -5,16 +5,6 @@
     <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/courses/</link>
     <description>Recent content in Courses on Dr. Jiangrui Liu | 刘江锐 博士</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>政治学原理</title>
-      <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/courses/course2/</link>
-      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/courses/course2/</guid>
-      <description>This undergraduate course presents many new things.</description>
-    </item>
-    
+    <language>en</language><atom:link href="http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
