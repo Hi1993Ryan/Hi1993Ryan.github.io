@@ -1,5 +1,6 @@
 ---
 title: "Courses"
+author: ["刘江锐"]
 description: "Courses on political science, and research methods. For undergraduate and graduate students."
 ---
 
@@ -11,7 +12,7 @@ description: "Courses on political science, and research methods. For undergradu
 
 ### 质性研究方法  |  Qualitative Research Methods
 - **Description**: This undergraduate course presents various methods and many results.
-- **Instructor**: 任星欣，潘虹，刘江锐
+- **Instructor**: 任星欣，潘虹，**刘江锐**
 - **Date**: 2024
 <!--- [Learn more](./course2/)-->
 
