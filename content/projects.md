@@ -36,7 +36,7 @@ disableAnchoredHeadings: false
 
 <div class="thinline"></div>
 
-### 中央高校基本科研业务费（师生能力提升专项——自科类）
+### 中央高校基本科研业务费（师生能力提升专项&mdash;自科类）
 
 * #### 社发领域重点研发计划合作网络影响科研绩效机理研究（2023CDJXY-002）
 
