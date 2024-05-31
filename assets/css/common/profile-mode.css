@@ -20,12 +20,12 @@
 .profile img {
     display: inline-table;
     border-radius: 15px; /* 设置圆角方框的半径 */
-    border: 0px solid white; /* 更改边框颜色和宽度 */
+    border: 2px solid rgba(52, 152, 219, 0.0); /* 更改边框颜色和宽度 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
     max-width: 100%; /* 设置图片最大宽度为容器的100% */
     height: auto; /* 高度自动调整 */
     padding: 0px; /* 内边距，用于在图片周围添加间距 */
-    background-color: white; /* 背景颜色，模仿Mac软件风格 */
+    background-color: rgba(52, 152, 219, 0.0); /* 背景颜色，模仿Mac软件风格 */
 }
 
 .buttons {
