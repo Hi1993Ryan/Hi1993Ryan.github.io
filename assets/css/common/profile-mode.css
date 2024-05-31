@@ -20,11 +20,11 @@
 .profile img {
     display: inline-table;
     border-radius: 15px; /* 设置圆角方框的半径 */
-    border: 2px solid #3498db; /* 更改边框颜色和宽度 */
+    border: 2px solid white; /* 更改边框颜色和宽度 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
-    width: 150px; /* 设置头像宽度 */
-    height: 150px; /* 设置头像高度 */
-    padding: 5px; /* 内边距，用于在图片周围添加间距 */
+    max-width: 100%; /* 设置图片最大宽度为容器的100% */
+    height: auto; /* 高度自动调整 */
+    padding: 0px; /* 内边距，用于在图片周围添加间距 */
     background-color: white; /* 背景颜色，模仿Mac软件风格 */
 }
 
