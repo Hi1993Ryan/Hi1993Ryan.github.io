@@ -50,7 +50,7 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: "刘江锐 <br><span style='font-size:18px;'>Dr. Jiangrui Liu</span>"
+          title: "刘江锐 <br><span style='font-size:22px;'>Dr. Jiangrui Liu</span>"
           subtitle: "我是重庆大学公共管理学院的一名老师，目前的研究兴趣（兴趣会流动）：政治态度与社会观念变迁（涉及生命历程研究）、公共治理、比较政治、计算社会科学、量化研究方法。<br> I am a faculty member at the School of Public Policy and Administration, Chongqing University. My current research interests, which are dynamic and evolving, span several fields: political attitudes and social change (with a focus on life course studies), public governance, comparative politics, computational social science, and quantitative methods."
           imageUrl: "ca.jpg"
           imageWidth: 160
