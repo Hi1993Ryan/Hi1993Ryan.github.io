@@ -6,7 +6,7 @@ author: 刘江锐
 ## Journal articles
 
 `2024`
-__Jiangrui Liu__ & Hui Yang. Divergence in Chinese Sexual Attitudes: An Age-Period-Cohort Analysis. _Archives of Sexual Behavior_, forthcoming.
+__Jiangrui Liu__ & Hui Yang. [Divergence in Chinese Sexual Attitudes: An Age-Period-Cohort Analysis](https://rdcu.be/dJ3Ix). _Archives of Sexual Behavior_.
 
 `2024`
 李堂军, 张巧显, 杨帆, 贾国伟, __刘江锐__, & 柯兵. 国家重点研发计划项目成果后评估试点实践研究. _中国科技资源导刊_, 待刊.
