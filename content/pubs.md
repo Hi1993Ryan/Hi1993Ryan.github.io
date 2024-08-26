@@ -6,9 +6,9 @@ author: 刘江锐
 ## Journal articles
 
 `2024`
-Jiangrui Liu & Hui Yang. [Divergence in Chinese Sexual Attitudes: An Age-Period-Cohort Analysis](https://rdcu.be/dJ3Ix). _Archives of Sexual Behavior_.
+Jiangrui Liu & Hui Yang. [Divergence in Chinese Sexual Attitudes: An Age-Period-Cohort Analysis](https://rdcu.be/dJ3Ix). _Archives of Sexual Behavior_. (mentioned by [*PsyPost*](https://www.psypost.org/study-reveals-evolving-sexual-attitudes-in-china-influenced-by-age-urban-rural-divide-and-political-status/))
 
-`2024` (mentioned by [*PsyPost*](https://www.psypost.org/study-reveals-evolving-sexual-attitudes-in-china-influenced-by-age-urban-rural-divide-and-political-status/))
+`2024`
 李堂军, 张巧显, 杨帆, 贾国伟, __刘江锐__, & 柯兵. 国家重点研发计划项目成果后评估试点实践研究. _中国科技资源导刊_.
 
 `2021`
@@ -26,6 +26,7 @@ Jiangrui Liu & Hui Yang. [Divergence in Chinese Sexual Attitudes: An Age-Period-
 `2023`
 两篇论文收录于：张小劲 & 景跃进. _[百年变局与中国政治学的时代化：清华政治学系的探索](https://mp.weixin.qq.com/s/HOKiUL22dz56fcH-e3JMhg)_. 中央编译出版社
 &nbsp;
+
 ## Conferences
 `2024`
 The 120$^{th}$ American Political Science Association Annual Meeting, Philadelphia, USA, September 5-8
