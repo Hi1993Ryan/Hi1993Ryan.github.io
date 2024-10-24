@@ -33,6 +33,8 @@ description: "basic into of personal experience."
 &nbsp;
 ## Awards
 ---
+`2024-10` [第十届中国公共管理学术年会](https://mp.weixin.qq.com/s/y4DUH_ajbDTqks0z1pWcxA)·[最佳论文奖](https://mp.weixin.qq.com/s/yYxOj4kmC95LeE6ZxuRN_w)
+
 `2019-12` 台湾政治学会年会·最佳论文奖（黄纪教授研究方法奖）
 
 `2018-08` 清华--知网大数据社会科学讲习班创意课题二等奖
