@@ -41,7 +41,7 @@ The XX ISA World Congress of Sociology, Melbourne, Australia, June 25-July 1
 The 80$^{th}$ Annual Midwest Political Science Association Conference, Chicago, USA, April 13-16
 
 `2021`
-[南京大学第九届“政治文化、心理与行为研究”工作坊](https://www.dps.tsinghua.edu.cn/info/1197/2424.htm)
+[第九届南京大学“政治文化、心理与行为研究”工作坊](https://www.dps.tsinghua.edu.cn/info/1197/2424.htm)
 
 `2021`
 [第一届清华大学“政治学经典议题与实证前沿”学术研讨会](https://www.dps.tsinghua.edu.cn/info/1197/2321.htm)
