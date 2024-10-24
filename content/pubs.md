@@ -29,6 +29,9 @@ Jiangrui Liu & Hui Yang. [Divergence in Chinese Sexual Attitudes: An Age-Period-
 
 ## Conferences
 `2024`
+[第十届中国公共管理学术年会](https://mp.weixin.qq.com/s/y4DUH_ajbDTqks0z1pWcxA)
+
+`2024`
 The 120$^{th}$ American Political Science Association Annual Meeting, Philadelphia, USA, September 5-8
 
 `2023`
@@ -38,19 +41,19 @@ The XX ISA World Congress of Sociology, Melbourne, Australia, June 25-July 1
 The 80$^{th}$ Annual Midwest Political Science Association Conference, Chicago, USA, April 13-16
 
 `2021`
-南京大学第九届“政治文化、心理与行为研究”工作坊
+[南京大学第九届“政治文化、心理与行为研究”工作坊](https://www.dps.tsinghua.edu.cn/info/1197/2424.htm)
 
 `2021`
-第一届清华大学“政治学经典议题与实证前沿”学术研讨会
+[第一届清华大学“政治学经典议题与实证前沿”学术研讨会](https://www.dps.tsinghua.edu.cn/info/1197/2321.htm)
 
 `2020`
-第七届清华大学“政治科学前沿理论与方法”研讨会
+[第七届清华大学“政治科学前沿理论与方法”研讨会](https://www.sss.tsinghua.edu.cn/info/1223/4445.htm)
 
 `2019`
-第六届清华大学“政治科学前沿理论与方法”研讨会
+[第六届清华大学“政治科学前沿理论与方法”研讨会](https://www.dps.tsinghua.edu.cn/info/1199/2086.htm)
 
 `2019`
-第五届 *Guanxi* for *Guanxi* Study 研讨会
+[第五届 *Guanxi* for *Guanxi* Study 研讨会](http://www.csnr.tsinghua.edu.cn/info/1033/1050.htm)
 &nbsp;
 ## Working Papers
 * Censorship
