@@ -6,13 +6,13 @@ author: 刘江锐
 ## Journal articles
 
 `2025`
-Xiang Wang, Yihui Tong & Jiangrui Liu* (corr. author). [The Rise and Fall of Exclusion: A Longitudinal Study of U.S. Attitudes Toward Immigration](https://journals.sagepub.com/home/IPS). _International Political Science Review_.
+Xiang Wang, Yihui Tong & **Jiangrui Liu*** (corr. author). [The Rise and Fall of Exclusion: A Longitudinal Study of U.S. Attitudes Toward Immigration](https://journals.sagepub.com/home/IPS). _International Political Science Review_.
 
 `2025`
-刘江锐 & 苏毓淞. [大语言模型提升社会化身研究潜力](https://www.cssn.cn/skgz/bwyc/202504/t20250425_5870796.shtml). _中国社会科学报_.
+**刘江锐** & 苏毓淞. [大语言模型提升社会化身研究潜力](https://www.cssn.cn/skgz/bwyc/202504/t20250425_5870796.shtml). _中国社会科学报_.
 
 `2024`
-Jiangrui Liu* (corr. author) & Hui Yang. [Divergence in Chinese Sexual Attitudes: An Age-Period-Cohort Analysis](https://rdcu.be/dJ3Ix). _Archives of Sexual Behavior_. (mentioned by [*PsyPost*](https://www.psypost.org/study-reveals-evolving-sexual-attitudes-in-china-influenced-by-age-urban-rural-divide-and-political-status/))
+**Jiangrui Liu*** (corr. author) & Hui Yang. [Divergence in Chinese Sexual Attitudes: An Age-Period-Cohort Analysis](https://rdcu.be/dJ3Ix). _Archives of Sexual Behavior_. (mentioned by [*PsyPost*](https://www.psypost.org/study-reveals-evolving-sexual-attitudes-in-china-influenced-by-age-urban-rural-divide-and-political-status/))
 
 `2024`
 李堂军, 张巧显, 杨帆, 贾国伟, __刘江锐__ & 柯兵. 国家重点研发计划项目成果后评估试点实践研究. _中国科技资源导刊_.
