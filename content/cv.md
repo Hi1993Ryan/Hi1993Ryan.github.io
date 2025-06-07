@@ -43,6 +43,7 @@ description: "basic into of personal experience."
 ## Technical skills
 ---
 * R
+* SAS
 * Stata
 * LaTeX
 * Markdown

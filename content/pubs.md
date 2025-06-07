@@ -5,11 +5,16 @@ author: 刘江锐
 ---
 ## Journal articles
 
-`2024`
-Jiangrui Liu & Hui Yang. [Divergence in Chinese Sexual Attitudes: An Age-Period-Cohort Analysis](https://rdcu.be/dJ3Ix). _Archives of Sexual Behavior_. (mentioned by [*PsyPost*](https://www.psypost.org/study-reveals-evolving-sexual-attitudes-in-china-influenced-by-age-urban-rural-divide-and-political-status/))
+`2025`
+Xiang Wang, Yihui Tong & Jiangrui Liu* (corr. author). [The Rise and Fall of Exclusion: A Longitudinal Study of U.S. Attitudes Toward Immigration](https://journals.sagepub.com/home/IPS). _International Political Science Review_.
+
+刘江锐 & 苏毓淞. [大语言模型提升社会化身研究潜力](https://www.cssn.cn/skgz/bwyc/202504/t20250425_5870796.shtml). _中国社会科学报_.
 
 `2024`
-李堂军, 张巧显, 杨帆, 贾国伟, __刘江锐__, & 柯兵. 国家重点研发计划项目成果后评估试点实践研究. _中国科技资源导刊_.
+Jiangrui Liu* (corr. author) & Hui Yang. [Divergence in Chinese Sexual Attitudes: An Age-Period-Cohort Analysis](https://rdcu.be/dJ3Ix). _Archives of Sexual Behavior_. (mentioned by [*PsyPost*](https://www.psypost.org/study-reveals-evolving-sexual-attitudes-in-china-influenced-by-age-urban-rural-divide-and-political-status/))
+
+`2024`
+李堂军, 张巧显, 杨帆, 贾国伟, __刘江锐__ & 柯兵. 国家重点研发计划项目成果后评估试点实践研究. _中国科技资源导刊_.
 
 `2021`
 苏毓淞 & __刘江锐__. [计算社会科学与研究范式之争: 理论的终结?](https://is.gd/Xz2rWW) _复旦学报(社会科学版)_.
@@ -28,6 +33,12 @@ Jiangrui Liu & Hui Yang. [Divergence in Chinese Sexual Attitudes: An Age-Period-
 &nbsp;
 
 ## Conferences
+`2025`
+The 28$^{th}$ IPSA World Congress of Political Science, Seoul, Korea, July 12-16
+
+`2025`
+The Public Management Research Conference, Seoul National University, Seoul, Korea, June 25-28
+
 `2024`
 [第十届中国公共管理学术年会](https://mp.weixin.qq.com/s/y4DUH_ajbDTqks0z1pWcxA)
 
@@ -56,6 +67,7 @@ The 80$^{th}$ Annual Midwest Political Science Association Conference, Chicago, 
 [第五届 *Guanxi* for *Guanxi* Study 研讨会](http://www.csnr.tsinghua.edu.cn/info/1033/1050.htm)
 &nbsp;
 ## Working Papers
+* Migration
 * Censorship
 * Bill Modification 
 * Populist Attitude
