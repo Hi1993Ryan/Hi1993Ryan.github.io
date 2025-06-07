@@ -8,6 +8,7 @@ author: 刘江锐
 `2025`
 Xiang Wang, Yihui Tong & Jiangrui Liu* (corr. author). [The Rise and Fall of Exclusion: A Longitudinal Study of U.S. Attitudes Toward Immigration](https://journals.sagepub.com/home/IPS). _International Political Science Review_.
 
+`2025`
 刘江锐 & 苏毓淞. [大语言模型提升社会化身研究潜力](https://www.cssn.cn/skgz/bwyc/202504/t20250425_5870796.shtml). _中国社会科学报_.
 
 `2024`
