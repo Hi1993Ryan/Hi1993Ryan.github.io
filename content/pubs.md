@@ -24,7 +24,7 @@ Jiangrui Liu* (corr. author) & Hui Yang. [Divergence in Chinese Sexual Attitudes
 苏毓淞 & __刘江锐__. [统计分析方法与美国政治学研究](https://is.gd/bf5ort). _美国研究_.
 
 `2019`
-孫思宇, __劉江銳__, & 李卓航. [數據分析方法在粵港澳大灣區發展中的應用前景](https://is.gd/81IHTa). _澳門研究(Macau Studies)_.
+孫思宇, __劉江銳__, & 李卓航. [數據分析方法在粵港澳大灣區發展中的應用前景](https://is.gd/81IHTa). _澳門研究 (Macau Studies)_.
 &nbsp;
 
 ## Book sections
