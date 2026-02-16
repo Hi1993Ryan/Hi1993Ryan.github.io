@@ -4,15 +4,6 @@ author: ["刘江锐"]
 description: "Courses on political science, and research methods. For undergraduate and graduate students."
 ---
 
-### 国家机关事务管理 | National Government Office Management
+本页面汇总我在重庆大学开设或参与授课的课程。
 
-- <!--**Description**: This graduate course presents various methods and results.-->
-
-### 政治学原理 | Fundamentals of Political Science
-
-- <!--**Description**: This undergraduate course presents various methods and many results.-->
-
-### 质性研究方法 | Qualitative Research Methods
-- <!--**Description**: This undergraduate course presents various methods and many results.-->
-
-### 社会科学研究设计 | Research Design in Social Sciences
+请直接点击下方课程卡片标题，查看每门课程的详细介绍、时间与授课信息。
