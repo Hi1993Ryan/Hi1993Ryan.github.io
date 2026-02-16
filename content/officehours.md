@@ -7,7 +7,7 @@ description: "Schedule and location for office hours."
 ---
 #### Schedule
 
-Office hours take place on Day at Hour.
+请通过邮件预约具体时间。通常我会在工作日的上午或下午安排时间。
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Location"
 hidemeta: true
-description: "Mailing and office addresses at the University of Place."
+description: "Mailing and office addresses at Chongqing University."
 
 ---
 

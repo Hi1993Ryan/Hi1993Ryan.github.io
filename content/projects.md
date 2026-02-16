@@ -10,9 +10,6 @@ cover:
     image: "/c5.png"
     alt: "Slack and GDP over the business cycle"
     relative: false
-# editPost:
-#     URL: "https://github.com/pmichaillat/business-cycles/"
-#     Text: "Bank of Italy course portal"
 # showToc: true
 disableAnchoredHeadings: false
 
@@ -44,4 +41,4 @@ disableAnchoredHeadings: false
 
 &nbsp;
 
-#### If you have comments or suggestions about these projects, would like to discuss, or simply discover gaps to work together, please [do email me](mailto:ljr17@tsinghua.org.cn).
+#### If you have comments or suggestions about these projects, would like to discuss, or simply discover gaps to work together, please [do email me](mailto:serenity@cqu.edu.cn).

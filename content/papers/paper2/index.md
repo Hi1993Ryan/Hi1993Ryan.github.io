@@ -3,8 +3,8 @@ title: "计算社会科学与研究范式之争：理论的终结？"
 date: 2021-03-25
 tags: ["计算社会科学","大数据","研究范式","因果推断"]
 author: ["苏毓淞", "刘江锐"]
-description: "This paper shows other things. Published in Journal Name, 2015." 
-summary: "This paper shows other things using other techniques and different data." 
+description: "计算社会科学与研究范式之争：理论的终结？发表于《复旦学报(社会科学版)》，2021年。" 
+summary: "本文探讨计算社会科学对研究范式的影响，以及理论在新时代的角色。" 
 cover:
     image: "paper2.png"
     alt: "Image caption"
@@ -21,13 +21,12 @@ editPost:
 
 + [Paper](paper2.pdf)
 + [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/unemployment-gap)
 
 ---
 
 ##### Abstract
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+本文探讨计算社会科学对研究范式的影响，以及理论在新时代的角色。详细内容请参见原文。
 
 ---
 
@@ -39,23 +38,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ##### Citation
 
-Author 1 and Author 2. Year. "Title." *Journal* Volume (Issue): First page–Last page. https://doi.org/paper_doi.
-
-```BibTeX
-@article{AAYY,
-author = {Author 1 and Author 2},
-doi = {paper_doi},
-journal = {Journal},
-number = {Issue},
-pages = {XXX--YYY},
-title ={Title},
-volume = {Volume},
-year = {Year}}
-```
+苏毓淞, 刘江锐. 2021. "计算社会科学与研究范式之争：理论的终结？" *复旦学报(社会科学版)* (3): 1-15. https://is.gd/Xz2rWW
 
 ---
 
-##### Related material
-
-+ [Presentation slides](presentation2.pdf)
 

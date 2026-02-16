@@ -1,4 +1,4 @@
-baseURL: "https://github.com/Hi1993Ryan/Hi1993Ryan.github.io" 
+baseURL: "https://hi1993ryan.github.io" 
 title: Dr. Jiangrui Liu | 刘江锐 博士
 paginate: 20
 theme: PaperMod
@@ -25,9 +25,8 @@ menu:
           weight: 4
 
 params:
-    description: "I am a lecturer of School of Public Policy and Administration at Chongqing University.\n My research covers various topics.
-consequat."
-    author: Name
+    description: "I am a lecturer of School of Public Policy and Administration at Chongqing University. My research covers various topics including political attitudes and social change, public governance, comparative politics, computational social science, and quantitative methods."
+    author: "刘江锐 (Jiangrui Liu)"
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -70,8 +69,6 @@ I am a faculty member at the School of Public Policy and Administration, Chongqi
             #  url: https://pmichaillat.substack.com
             - name: Tags
               url: tags/
-            - name: Misc.
-              url: misc./
     socialIcons:
         - name: CV
           url: cv/ #cv.pdf

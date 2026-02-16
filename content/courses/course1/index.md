@@ -3,8 +3,8 @@ title: "国家机关事务管理 | National Government Office Management"
 date: 2024-09-16
 tags: ["机关事务","过程管理","集中统一"]
 author: ["刘江锐"]
-description: "This graduate course presents things." 
-summary: "This graduate course presents various methods and results." 
+description: "研究生课程：国家机关事务管理" 
+summary: "本课程介绍国家机关事务管理的理论与实践。" 
 cover:
     image: "机关事务.jpg"
     alt: "Figure caption"
@@ -19,39 +19,38 @@ disableAnchoredHeadings: false
 
 ## Introduction
 
-This course covers research topics related to things. It tries to answer several questions: 
+本课程介绍国家机关事务管理的基本理论与实践。课程内容包括：
 
-+ Why this? 
-+ What about this? 
-
++ 国家机关事务管理的基本概念与理论框架
++ 集中统一管理原则与实践
++ 过程管理与优化
 
 ---
 
 ## Part 1
 
-This section reviews things.
+本部分介绍国家机关事务管理的基本概念与理论基础。
 
 ##### Lecture notes
 
-+ 
++ 课程材料将逐步更新
 
 ##### Readings
 
-+ Paper – This paper finds things.
++ 相关阅读材料将逐步添加
 
 ##### Homework
 
-+ Quiz
++ 作业要求将在课程中发布
 
 ---
 
 ## Part 2
 
-This section introduces other things.
+本部分介绍集中统一管理原则与实践。
 
 ---
 
 ## Part 3
 
-This section turns to other things.
-consequat.
+本部分介绍过程管理与优化方法。
