@@ -1,8 +1,8 @@
 ---
 title: "Résumé"
 hidemeta: true
-description: "basic into of personal experience."
----
+description: "个人简历与学术经历简介。"
+---*** End Patch```"/>
 
 
 ## 工作经历

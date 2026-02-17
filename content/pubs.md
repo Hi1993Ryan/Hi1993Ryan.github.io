@@ -77,6 +77,6 @@ The 80$^{th}$ Annual Midwest Political Science Association Conference, Chicago, 
 * Populist Attitude
 * Eyes on Corruption
 * Political Participation 
-* Enviromental Governance
+* Environmental Governance
 * 国家重点研发计划合作网络
 * …
