@@ -25,9 +25,9 @@ params:
     description: "I am a lecturer of School of Public Policy and Administration at Chongqing University. My research covers various topics including political attitudes and social change, public governance, comparative politics, computational social science, and quantitative methods."
     author: "刘江锐 (Jiangrui Liu)"
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: auto
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true

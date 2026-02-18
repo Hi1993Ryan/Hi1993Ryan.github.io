@@ -1,0 +1,8 @@
+{{- /* 按访客所在地区当地时间的昼夜自动选择主题：6:00–18:00 为日间（浅色），其余为夜间（深色）；仅当用户未手动选择过主题时生效 */ -}}
+<script>
+(function() {
+    if (localStorage.getItem("pref-theme")) return;
+    var h = new Date().getHours();
+    localStorage.setItem("pref-theme", (h >= 6 && h < 18) ? "light" : "dark");
+})();
+</script>
