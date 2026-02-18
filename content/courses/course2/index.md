@@ -1,9 +1,10 @@
 ---
-title: "政治学原理" 
+title: "政治学原理（本科）" 
 date: 2025-03-15
+weight: 5
 tags: ["政治社会化"]
 author: ["刘江锐"]
-description: "本科生课程：政治学原理" 
+description: "本科课程：政治学原理。" 
 summary: "本课程介绍政治学的基本概念、理论和方法。" 
 cover:
     image: "political_science.jpg"
