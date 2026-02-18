@@ -6,12 +6,9 @@ author: ["刘江锐"]
 description: "本科生课程：政治学原理" 
 summary: "本课程介绍政治学的基本概念、理论和方法。" 
 cover:
-    image: "course2.png"
-    alt: "Figure caption"
+    image: "political_science.jpg"
+    alt: "政治学原理"
     relative: false
-editPost:
-    URL: "https://youtube.com/playlist?list=PL5zEkRHvv2GxHa26QiEdeEybMy0UbdjmW"
-    Text: "YouTube playlist"
 showToc: true
 disableAnchoredHeadings: false
 

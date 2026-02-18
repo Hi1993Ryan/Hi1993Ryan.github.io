@@ -9,9 +9,6 @@ cover:
     image: "机关事务.jpg"
     alt: "Figure caption"
     relative: false
-editPost:
-    URL: "https://youtube.com/playlist?list=PL5zEkRHvv2GxQlFbNf-YqSPMP6ePc3DQf"
-    Text: "YouTube playlist"
 showToc: true
 disableAnchoredHeadings: false
 
