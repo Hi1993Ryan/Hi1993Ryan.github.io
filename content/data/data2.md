@@ -7,7 +7,6 @@ description: "中国博士后科学基金面上资助：人大法案修改能力
 summary: "人大法案修改能力的实证测量与提升机制研究（2022M710538）"
 # cover:
     # image: "/data1.png"
-    # alt: "Figure caption"
     # relative: false
 editPost:
     URL: "https://fz.people.com.cn/skygb/sk/index.php/Index/seach"

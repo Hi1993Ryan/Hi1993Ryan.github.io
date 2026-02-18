@@ -7,7 +7,6 @@ description: "国家社会科学基金青年项目：民粹倾向的变迁态势
 summary: "民粹倾向的变迁态势及应对策略研究（22CZZ044）"
 # cover:
     # image: "/data1.png"
-    # alt: "Figure caption"
     # relative: false
 editPost:
     URL: "https://fz.people.com.cn/skygb/sk/index.php/Index/seach"
