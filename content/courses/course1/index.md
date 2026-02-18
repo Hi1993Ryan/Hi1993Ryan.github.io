@@ -7,7 +7,7 @@ description: "研究生课程：国家机关事务管理"
 summary: "本课程介绍国家机关事务管理的理论与实践。" 
 cover:
     image: "机关事务.jpg"
-    alt: "Figure caption"
+    alt: "国家机关事务管理"
     relative: false
 showToc: true
 disableAnchoredHeadings: false

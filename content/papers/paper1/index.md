@@ -7,7 +7,7 @@ description: "统计分析方法与美国政治学研究。发表于《美国研
 summary: "本文探讨统计分析方法在美国政治学研究中的应用与发展。" 
 cover:
     image: "paper1.png"
-    alt: "Image caption"
+    alt: "统计分析方法与美国政治学研究"
     relative: false
 editPost:
     URL: "https://is.gd/bf5ort"
@@ -29,7 +29,7 @@ editPost:
 
 ---
 
-##### Figure X: Figure caption
+##### 图
 
 ![](paper1.png)
 

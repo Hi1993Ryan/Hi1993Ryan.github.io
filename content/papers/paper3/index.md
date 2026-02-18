@@ -7,11 +7,8 @@ description: "国家重点研发计划项目成果后评估试点实践研究。
 summary: "本文探讨国家重点研发计划项目成果后评估的试点实践。" 
 cover:
     image: "paper1.png"
-    alt: "Image caption"
+    alt: "国家重点研发计划项目成果后评估试点实践研究"
     relative: false
-editPost:
-    URL: "https://is.gd/bf5ort"
-    Text: "中国科技资源导刊"
 
 ---
 
@@ -29,7 +26,7 @@ editPost:
 
 ---
 
-##### Figure X: Figure caption
+##### 图
 
 ![](paper1.png)
 

@@ -7,7 +7,7 @@ description: "计算社会科学与研究范式之争：理论的终结？发表
 summary: "本文探讨计算社会科学对研究范式的影响，以及理论在新时代的角色。" 
 cover:
     image: "paper2.png"
-    alt: "Image caption"
+    alt: "计算社会科学与研究范式之争"
     relative: false
 editPost:
     URL: "https://is.gd/Xz2rWW"
@@ -30,7 +30,7 @@ editPost:
 
 ---
 
-##### Figure X: Figure caption
+##### 图
 
 ![](paper2.png)
 
