@@ -1,10 +1,10 @@
 ---
-title: "社会科学研究设计（本科）| Research Design in Social Sciences"
+title: "社会科学研究设计（本科生）| Research Design in Social Sciences"
 date: 2024-09-01
 weight: 1
 tags: ["研究设计","研究方法"]
 author: ["刘江锐"]
-description: "本科课程：社会科学研究设计。"
+description: "本科生课程：社会科学研究设计。"
 summary: "本课程介绍社会科学研究从问题提出到方案实施的整体设计思路与常见策略。"
 cover:
     image: "research-design.jpg"

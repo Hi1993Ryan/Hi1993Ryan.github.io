@@ -1,10 +1,10 @@
 ---
-title: "行为公共管理学（本科）| Behavioral Public Administration"
+title: "行为公共管理学（本科生）| Behavioral Public Administration"
 date: 2025-03-01
 weight: 2
 tags: ["行为公共管理","公共管理","行为科学"]
 author: ["刘江锐"]
-description: "本科课程：行为公共管理学。"
+description: "本科生课程：行为公共管理学。"
 summary: "本课程介绍行为科学在公共管理与政策中的应用，包括有限理性、助推与行为干预等核心议题。"
 cover:
     image: "bpa.jpg"
