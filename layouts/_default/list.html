@@ -38,6 +38,8 @@
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
+{{- else }}
+{{- $pages = $pages.ByWeight }}
 {{- end }}
 
 {{- $paginator := .Paginate $pages }}
