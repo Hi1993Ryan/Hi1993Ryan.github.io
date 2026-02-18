@@ -20,7 +20,7 @@ menu:
         - name: Projects
           url: projects/
           weight: 3
-        - name: "CV (Full)"
+        - name: CV (EN)
           url: https://hi1993ryan.github.io/md-cv/
           weight: 4
 
@@ -64,7 +64,7 @@ I am a faculty member at the School of Public Policy and Administration, Chongqi
               url: courses/
             - name: Projects
               url: projects/
-            - name: "CV (Full)"
+            - name: CV (EN)
               url: https://hi1993ryan.github.io/md-cv/
             - name: Tags
               url: tags/
