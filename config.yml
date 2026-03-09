@@ -1,6 +1,7 @@
 baseURL: "https://hi1993ryan.github.io" 
 title: Dr. Jiangrui Liu | 刘江锐 博士
-paginate: 20
+pagination:
+  pagerSize: 20
 theme: PaperMod
 
 enableInlineShortcodes: true

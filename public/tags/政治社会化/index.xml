@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>政治社会化 on Dr. Jiangrui Liu | 刘江锐 博士</title>
-    <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/tags/%E6%94%BF%E6%B2%BB%E7%A4%BE%E4%BC%9A%E5%8C%96/</link>
+    <link>https://hi1993ryan.github.io/tags/%E6%94%BF%E6%B2%BB%E7%A4%BE%E4%BC%9A%E5%8C%96/</link>
     <description>Recent content in 政治社会化 on Dr. Jiangrui Liu | 刘江锐 博士</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/tags/%E6%94%BF%E6%B2%BB%E7%A4%BE%E4%BC%9A%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hi1993ryan.github.io/tags/%E6%94%BF%E6%B2%BB%E7%A4%BE%E4%BC%9A%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>政治学原理</title>
-      <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/courses/course2/</link>
-      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      <title>政治学原理（本科生）</title>
+      <link>https://hi1993ryan.github.io/courses/course2/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/courses/course2/</guid>
-      <description>This undergraduate course presents many new things.</description>
+      <guid>https://hi1993ryan.github.io/courses/course2/</guid>
+      <description>本科生课程：政治学原理。</description>
     </item>
     
   </channel>

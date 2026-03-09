@@ -2,95 +2,157 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dr. Jiangrui Liu | 刘江锐 博士</title>
-    <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/</link>
+    <link>https://hi1993ryan.github.io/</link>
     <description>Recent content on Dr. Jiangrui Liu | 刘江锐 博士</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hi1993ryan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>社会科学研究设计（本科生）| Research Design in Social Sciences</title>
+      <link>https://hi1993ryan.github.io/courses/course4/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hi1993ryan.github.io/courses/course4/</guid>
+      <description>本科生课程：社会科学研究设计。</description>
+    </item>
+    
+    <item>
+      <title>行为公共管理学（本科生）| Behavioral Public Administration</title>
+      <link>https://hi1993ryan.github.io/courses/course5/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://hi1993ryan.github.io/courses/course5/</guid>
+      <description>本科生课程：行为公共管理学。</description>
+    </item>
+    
+    <item>
+      <title>质性研究方法（研究生）| Qualitative Research Methods</title>
+      <link>https://hi1993ryan.github.io/courses/course3/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://hi1993ryan.github.io/courses/course3/</guid>
+      <description>研究生课程：质性研究方法。</description>
+    </item>
+    
+    <item>
+      <title>国家机关事务管理（MPA）| National Government Office Management</title>
+      <link>https://hi1993ryan.github.io/courses/course1/</link>
+      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hi1993ryan.github.io/courses/course1/</guid>
+      <description>MPA 课程：国家机关事务管理。</description>
+    </item>
+    
+    <item>
+      <title>政治学原理（本科生）</title>
+      <link>https://hi1993ryan.github.io/courses/course2/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://hi1993ryan.github.io/courses/course2/</guid>
+      <description>本科生课程：政治学原理。</description>
+    </item>
+    
+    <item>
+      <title>国家重点研发计划项目成果后评估试点实践研究</title>
+      <link>https://hi1993ryan.github.io/papers/paper3/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hi1993ryan.github.io/papers/paper3/</guid>
+      <description>国家重点研发计划项目成果后评估试点实践研究。发表于《中国科技资源导刊》，2024年。</description>
+    </item>
+    
     <item>
       <title>国家社会科学基金青年项目</title>
-      <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/data/data1/</link>
+      <link>https://hi1993ryan.github.io/data/data1/</link>
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/data/data1/</guid>
-      <description>This dataset contains things.</description>
+      <guid>https://hi1993ryan.github.io/data/data1/</guid>
+      <description>国家社会科学基金青年项目：民粹倾向的变迁态势及应对策略研究（22CZZ044）</description>
     </item>
     
     <item>
       <title>中国博士后科学基金第71批面上资助</title>
-      <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/data/data2/</link>
+      <link>https://hi1993ryan.github.io/data/data2/</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/data/data2/</guid>
-      <description>This dataset contains things.</description>
+      <guid>https://hi1993ryan.github.io/data/data2/</guid>
+      <description>中国博士后科学基金面上资助：人大法案修改能力的实证测量与提升机制研究（2022M710538）</description>
     </item>
     
     <item>
       <title>计算社会科学与研究范式之争：理论的终结？</title>
-      <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/papers/paper2/</link>
+      <link>https://hi1993ryan.github.io/papers/paper2/</link>
       <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/papers/paper2/</guid>
-      <description>This paper shows other things. Published in Journal Name, 2015.</description>
+      <guid>https://hi1993ryan.github.io/papers/paper2/</guid>
+      <description>计算社会科学与研究范式之争：理论的终结？发表于《复旦学报(社会科学版)》，2021年。</description>
     </item>
     
     <item>
       <title>统计分析方法与美国政治学研究</title>
-      <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/papers/paper1/</link>
+      <link>https://hi1993ryan.github.io/papers/paper1/</link>
       <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/papers/paper1/</guid>
-      <description>This paper shows things. Published in Journal Name, 2012.</description>
+      <guid>https://hi1993ryan.github.io/papers/paper1/</guid>
+      <description>统计分析方法与美国政治学研究。发表于《美国研究》，2020年。</description>
     </item>
     
     
     <item>
       <title>Location</title>
-      <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/location/</link>
+      <link>https://hi1993ryan.github.io/location/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/location/</guid>
-      <description>Mailing and office addresses at the University of Place.</description>
+      <guid>https://hi1993ryan.github.io/location/</guid>
+      <description>Mailing and office addresses at Chongqing University.</description>
     </item>
     
     <item>
       <title>Office Hours</title>
-      <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/officehours/</link>
+      <link>https://hi1993ryan.github.io/officehours/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/officehours/</guid>
+      <guid>https://hi1993ryan.github.io/officehours/</guid>
       <description>Schedule and location for office hours.</description>
     </item>
     
     <item>
       <title>Papers</title>
-      <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/pubs/</link>
+      <link>https://hi1993ryan.github.io/pubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/pubs/</guid>
-      <description>Journal articles 2024 Jiangrui Liu &amp;amp; Hui Yang. Divergence in Chinese Sexual Attitudes: An Age-Period-Cohort Analysis. Archives of Sexual Behavior, forthcoming.
-2024 李堂军, 张巧显, 杨帆, 贾国伟, 刘江锐, &amp;amp; 柯兵. 国家重点研发计划项目成果后评估试点实践研究. 中国科技资源导刊, 待刊.
-2021 苏毓淞 &amp;amp; 刘江锐. 计算社会科学与研究范式之争: 理论的终结? 复旦学报(社会科学版), 63(2), 189–196.
-2020 苏毓淞 &amp;amp; 刘江锐. (2020). 统计分析方法与美国政治学研究 . 美国研究, 34(3), 107-125+7-8.
-2019 孫思宇, 劉江銳, &amp;amp; 李卓航. (2019). 數據分析方法在粵港澳大灣區發展中的應用前景 . 澳門研究(Macau Studies), 92, 96–98. Book sections 2023 两篇论文收录于：张小劲 &amp;amp; 景跃进. 百年变局与中国政治学的时代化：清华政治学系的探索 .</description>
+      <guid>https://hi1993ryan.github.io/pubs/</guid>
+      <description>&lt;h2 id=&#34;journal-articles&#34;&gt;Journal articles&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;2026&lt;/code&gt;
+Hui Yang, Xiaohong Yu &amp;amp; &lt;strong&gt;Jiangrui Liu&lt;/strong&gt;* (corr. author). &amp;ldquo;Decoding Legislative Dynamics: Empirics on Bill Modifications in China&amp;rdquo;. &lt;em&gt;Political Studies&lt;/em&gt; (forthcoming).&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2025&lt;/code&gt;
+Xiang Wang, Yihui Tong &amp;amp; &lt;strong&gt;Jiangrui Liu&lt;/strong&gt;* (corr. author). &lt;a href=&#34;https://journals.sagepub.com/home/IPS&#34; target=&#34;_blank&#34;&gt;The Rise and Fall of Exclusion: A Longitudinal Study of U.S. Attitudes Toward Immigration&lt;/a&gt;
+. &lt;em&gt;International Political Science Review&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2025&lt;/code&gt;
+&lt;strong&gt;刘江锐&lt;/strong&gt; &amp;amp; 苏毓淞. &lt;a href=&#34;https://www.cssn.cn/skgz/bwyc/202504/t20250425_5870796.shtml&#34; target=&#34;_blank&#34;&gt;大语言模型提升社会化身研究潜力&lt;/a&gt;
+. &lt;em&gt;中国社会科学报&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2024&lt;/code&gt;
+&lt;strong&gt;Jiangrui Liu&lt;/strong&gt;* (corr. author) &amp;amp; Hui Yang. &lt;a href=&#34;https://rdcu.be/dJ3Ix&#34; target=&#34;_blank&#34;&gt;Divergence in Chinese Sexual Attitudes: An Age-Period-Cohort Analysis&lt;/a&gt;
+. &lt;em&gt;Archives of Sexual Behavior&lt;/em&gt;. (mentioned by &lt;a href=&#34;https://www.psypost.org/study-reveals-evolving-sexual-attitudes-in-china-influenced-by-age-urban-rural-divide-and-political-status/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;PsyPost&lt;/em&gt;&lt;/a&gt;
+)&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Résumé</title>
-      <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/cv/</link>
+      <link>https://hi1993ryan.github.io/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/cv/</guid>
-      <description>basic into of personal experience.</description>
+      <guid>https://hi1993ryan.github.io/cv/</guid>
+      <description>个人简历与学术经历简介。</description>
     </item>
     
     <item>
       <title>科研项目</title>
-      <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/projects/</link>
+      <link>https://hi1993ryan.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/projects/</guid>
-      <description>This book reviews facts about business cycles, develops a matching model to explain them, and discusses how monetary and fiscal policy can stabilize them.</description>
+      <guid>https://hi1993ryan.github.io/projects/</guid>
+      <description>主持和参与的科研项目简介。</description>
     </item>
     
   </channel>

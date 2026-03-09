@@ -2,18 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>研究方法 on Dr. Jiangrui Liu | 刘江锐 博士</title>
-    <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/tags/%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95/</link>
+    <link>https://hi1993ryan.github.io/tags/%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95/</link>
     <description>Recent content in 研究方法 on Dr. Jiangrui Liu | 刘江锐 博士</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/tags/%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hi1993ryan.github.io/tags/%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>社会科学研究设计（本科生）| Research Design in Social Sciences</title>
+      <link>https://hi1993ryan.github.io/courses/course4/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hi1993ryan.github.io/courses/course4/</guid>
+      <description>本科生课程：社会科学研究设计。</description>
+    </item>
+    
+    <item>
+      <title>质性研究方法（研究生）| Qualitative Research Methods</title>
+      <link>https://hi1993ryan.github.io/courses/course3/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://hi1993ryan.github.io/courses/course3/</guid>
+      <description>研究生课程：质性研究方法。</description>
+    </item>
+    
+    <item>
+      <title>国家重点研发计划项目成果后评估试点实践研究</title>
+      <link>https://hi1993ryan.github.io/papers/paper3/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hi1993ryan.github.io/papers/paper3/</guid>
+      <description>国家重点研发计划项目成果后评估试点实践研究。发表于《中国科技资源导刊》，2024年。</description>
+    </item>
+    
     <item>
       <title>统计分析方法与美国政治学研究</title>
-      <link>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/papers/paper1/</link>
+      <link>https://hi1993ryan.github.io/papers/paper1/</link>
       <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Hi1993Ryan/Hi1993Ryan.github.io/papers/paper1/</guid>
-      <description>This paper shows things. Published in Journal Name, 2012.</description>
+      <guid>https://hi1993ryan.github.io/papers/paper1/</guid>
+      <description>统计分析方法与美国政治学研究。发表于《美国研究》，2020年。</description>
     </item>
     
   </channel>
