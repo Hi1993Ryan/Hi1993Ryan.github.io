@@ -6,7 +6,7 @@ author: 刘江锐
 ## Journal articles
 
 `2026`
-Hui Yang, Xiaohong Yu & **Jiangrui Liu*** (corr. author). "Decoding Legislative Dynamics: Empirics on Bill Modifications in China". _Political Studies_ (forthcoming). [<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VUWDDL" target="_blank" rel="noopener noreferrer">replication materials</a>]
+Hui Yang, Xiaohong Yu & **Jiangrui Liu*** (corr. author). "Decoding Legislative Dynamics: Empirics on Bill Modifications in China". _Political Studies_. [<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VUWDDL" target="_blank" rel="noopener noreferrer">replication materials</a>]
 
 `2025`
 Xiang Wang, Yihui Tong & **Jiangrui Liu*** (corr. author). [The Rise and Fall of Exclusion: A Longitudinal Study of U.S. Attitudes Toward Immigration](https://journals.sagepub.com/home/IPS). _International Political Science Review_.
