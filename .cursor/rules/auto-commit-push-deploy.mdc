@@ -1,0 +1,57 @@
+---
+description: 修改主站或 md-cv 后自动提交并 push 以触发 GitHub Pages 部署
+alwaysApply: true
+---
+
+# 网站修改后自动提交与部署
+
+用户已授权：在本仓库（Hi1993Ryan.github.io）及关联的 md-cv 仓库完成网站相关修改后，**无需再单独要求**，应自动提交并推送到 GitHub 以触发部署。
+
+## 适用仓库
+
+- 主站：`Hi1993Ryan.github.io` → `origin`（`https://github.com/Hi1993Ryan/Hi1993Ryan.github.io.git`）
+- 英文 CV：`md-cv` → `origin`（`https://github.com/Hi1993Ryan/md-cv.git`）
+
+只 push 到 **origin**，不要 push 到 **upstream**。
+
+## 何时执行
+
+在以下任务**完成且验证通过**后执行（content、config、layouts、assets、workflow、md-cv 的 `index.md` / CSS / layout 等）：
+
+1. 运行验证（主站：`hugo` 或 `hugo --quiet`；md-cv：若无法 Jekyll 构建，至少确认 Markdown/HTML 无语法问题）
+2. **构建失败则不 commit/push**，先修复再提交
+3. 若仅改了 md-cv，只 push md-cv；仅改主站，只 push 主站；两处都改则**分别** commit 并 push
+
+## Git 流程
+
+并行查看状态：
+
+```bash
+git status
+git diff
+git log -1 --oneline
+```
+
+然后依次：
+
+```bash
+git add <相关文件>
+git commit -m "$(cat <<'EOF'
+简短说明（为何而改，完整句子）
+
+EOF
+)"
+git push origin main
+```
+
+## 安全约束（必须遵守）
+
+- 不 `git push --force`，尤其不对 `main` force push
+- 不修改 git config
+- 不跳过 hooks（`--no-verify`）
+- 不提交 `.env`、密钥等敏感文件
+- 用户若明确说「先不要 push / 只改不部署」，则暂停自动 push
+
+## 部署说明
+
+主站 push 到 `main` 后，GitHub Actions（`Deploy Hugo site to Pages`）会自动发布到 https://hi1993ryan.github.io/ 。md-cv 为独立仓库，需单独 push 后才会更新 https://hi1993ryan.github.io/md-cv/（若通过该方式托管）。
