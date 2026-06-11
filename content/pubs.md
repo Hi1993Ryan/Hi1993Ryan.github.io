@@ -40,6 +40,12 @@ Xiang Wang, Yihui Tong & **Jiangrui Liu*** (corr. author). [The Rise and Fall of
 &nbsp;
 
 ## Conferences
+`2026`
+[厦门大学“政治发展与地方治理”学术研讨会](https://mp.weixin.qq.com/s/ogNmfPvhufKo71D2JGC1jA)
+
+`2026`
+American Society for Public Administration 2026 Annual Conference, Hollywood, California, USA, March 20–24
+
 `2025`
 The 28$^{th}$ IPSA World Congress of Political Science, Seoul, Korea, July 12-16
 
