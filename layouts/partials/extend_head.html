@@ -18,3 +18,10 @@
     text-decoration-thickness: 0.12em;
   }
 </style>
+{{- if .Params.wideContent }}
+<style>
+  :root {
+    --main-width: 960px;
+  }
+</style>
+{{- end }}
