@@ -13,7 +13,7 @@ Xiang Wang, Yihui Tong & **Jiangrui Liu*** (corr. author). [When Democracy Disap
 Hui Yang, Xiaohong Yu & **Jiangrui Liu*** (corr. author). [Decoding Legislative Dynamics: Empirics on Bill Modifications in China](https://journals.sagepub.com/doi/10.1177/00323217261428857). _Political Studies_. [<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VUWDDL" target="_blank" rel="noopener noreferrer">replication materials</a>]
 
 `2026`
-Chengcheng Yue, Lili Shang & **Jiangrui Liu*** (corr. author). Stock Neutrality, Flow Crowding-Out, and State-Dependency: Revisiting the Debt-Health Nexus in OECD Europe.
+Chengcheng Yue, Lili Shang & **Jiangrui Liu*** (corr. author). Stock Neutrality, Flow Crowding-Out, and State-Dependency: Revisiting the Debt-Health Nexus in OECD Europe. _European Journal of Health Economics_.
 
 `2025`
 Xiang Wang, Yihui Tong & **Jiangrui Liu*** (corr. author). [The Rise and Fall of Exclusion: A Longitudinal Study of U.S. Attitudes Toward Immigration](https://journals.sagepub.com/home/IPS). _International Political Science Review_.
