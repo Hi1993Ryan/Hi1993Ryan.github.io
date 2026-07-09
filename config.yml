@@ -49,7 +49,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: "刘江锐 博士 | Dr. Jiangrui Liu"
+          title: '<span class="profile-title-zh" lang="zh">刘江锐 博士</span> | <span class="profile-title-en" lang="en">Dr. Jiangrui Liu</span>'
           subtitle: |-
             我是<a href="https://cpa.cqu.edu.cn/" target="_blank" rel="noopener noreferrer">重庆大学公共管理学院</a>的一名教师，<a href="https://www.dps.tsinghua.edu.cn/" target="_blank" rel="noopener noreferrer">清华大学政治学</a>博士。我的研究主要聚焦政治态度与社会观念的变迁（以生命历程为分析视角），并关注国家—社会关系与公共治理中的认知与评价问题，延伸至比较政治、量化研究方法与计算社会科学，对复杂社会现象进行系统性的实证分析。研究兴趣和范围在问题驱动下持续拓展与演进。
             <br><br>
