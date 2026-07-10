@@ -49,6 +49,7 @@ git push origin main
 - 不 `git push --force`，尤其不对 `main` force push
 - 不修改 git config
 - 不跳过 hooks（`--no-verify`）
+- 不提交 `public/`、`resources/` 等 Hugo 构建产物（由 GitHub Actions 生成）
 - 不提交 `.env`、密钥等敏感文件
 - 用户若明确说「先不要 push / 只改不部署」，则暂停自动 push
 
