@@ -2,7 +2,15 @@
 <script>
 (function() {
     var h = new Date().getHours();
-    localStorage.setItem("pref-theme", (h >= 6 && h < 18) ? "light" : "dark");
+    var next = (h >= 6 && h < 18) ? "light" : "dark";
+    try { localStorage.setItem("pref-theme", next); } catch (e) {}
+    function apply() {
+        if (!document.body) return;
+        if (next === "dark") document.body.classList.add("dark");
+        else document.body.classList.remove("dark");
+    }
+    apply();
+    document.addEventListener("DOMContentLoaded", apply);
 })();
 </script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

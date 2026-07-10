@@ -7,7 +7,7 @@ author: "主持人：刘江锐"
 description: "主持和参与的科研项目简介。"
 summary: "科研项目一览与简要说明。" 
 cover:
-    image: "/c5.png"
+    image: "/data1.png"
     alt: "Research projects illustration"
     relative: false
 # showToc: true

@@ -1,6 +1,8 @@
 ---
 title: "计算社会科学与研究范式之争：理论的终结？" 
 date: 2021-03-25
+robotsNoIndex: true
+hiddenInHomeList: true
 tags: ["计算社会科学","大数据","研究范式","因果推断"]
 author: ["苏毓淞", "刘江锐"]
 description: "计算社会科学与研究范式之争：理论的终结？发表于《复旦学报(社会科学版)》，2021年。" 

@@ -1,12 +1,1 @@
-{{- /* Auto theme by visitor local time. Keep no toggle button. */ -}}
-<script>
-(function () {
-  try {
-    var h = new Date().getHours();
-    var next = (h >= 6 && h < 18) ? "light" : "dark";
-    localStorage.setItem("pref-theme", next);
-    if (next === "dark") document.body.classList.add("dark");
-    else document.body.classList.remove("dark");
-  } catch (e) {}
-})();
-</script>
+{{- /* Theme class is applied in extend_head.html */ -}}
