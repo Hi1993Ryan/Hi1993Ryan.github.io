@@ -2,6 +2,7 @@
 title: Papers
 author: 刘江锐
 wideContent: true
+math: true
 ---
 ## Journal articles
 
