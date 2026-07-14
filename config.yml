@@ -22,7 +22,7 @@ menu:
           url: projects/
           weight: 3
         - name: CV (EN)
-          url: https://hi1993ryan.github.io/md-cv/
+          url: cv.pdf
           weight: 4
 
 params:
@@ -71,7 +71,7 @@ params:
             - name: Projects
               url: projects/
             - name: CV (EN)
-              url: https://hi1993ryan.github.io/md-cv/
+              url: cv.pdf
             - name: Tags
               url: tags/
     socialIcons:
