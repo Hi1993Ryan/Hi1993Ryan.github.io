@@ -4,7 +4,7 @@ hidemeta: true
 description: "个人履历简介；完整英文版见 CV (EN)。"
 ---
 
-## 现任
+## 工作
 ---
 * 重庆大学公共管理学院&emsp;&emsp;&emsp;&emsp;&emsp;2024~至今&emsp;&emsp;&emsp;&emsp;&nbsp;&thinsp; 行政管理系 &#124; 副主任
 * 重庆大学公共管理学院&emsp;&emsp;&emsp;&emsp;&emsp;2022~至今&emsp;&emsp;&emsp;&emsp;&ensp; 讲师
