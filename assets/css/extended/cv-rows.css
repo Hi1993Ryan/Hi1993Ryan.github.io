@@ -4,18 +4,25 @@
 
 .cv-row {
     display: grid;
-    grid-template-columns: minmax(12em, 1.45fr) 6.75em minmax(6em, 1fr);
-    column-gap: 1.1em;
-    align-items: start;
+    /* Fixed tracks so every row shares the same left edges for date/role */
+    grid-template-columns: 14em 7em 1fr;
+    column-gap: 1em;
+    align-items: baseline;
     margin: 0.55em 0;
     line-height: 1.45;
 }
 
 .cv-org-note {
     display: block;
-    margin-top: 0.12em;
+    margin-top: 0;
     font-size: 0.85em;
     color: var(--secondary);
+    line-height: 1.35;
+}
+
+.cv-row-note {
+    margin-top: -0.25em;
+    margin-bottom: 0.55em;
 }
 
 .cv-date {
@@ -27,6 +34,7 @@
         grid-template-columns: 1fr;
         row-gap: 0.12em;
         margin: 0.85em 0;
+        align-items: start;
     }
 
     .cv-date,

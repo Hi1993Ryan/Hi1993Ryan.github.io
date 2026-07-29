@@ -9,7 +9,8 @@ description: "个人履历简介；完整英文版见 CV (EN)。"
 <div class="cv-rows">
 <div class="cv-row"><div class="cv-org">重庆大学公共管理学院</div><div class="cv-date">2024~至今</div><div class="cv-role">行政管理系 | 副主任</div></div>
 <div class="cv-row"><div class="cv-org">重庆大学公共管理学院</div><div class="cv-date">2022~至今</div><div class="cv-role">讲师</div></div>
-<div class="cv-row"><div class="cv-org">中国21世纪议程管理中心<span class="cv-org-note">（科技部→国家自然科学基金委员会）</span></div><div class="cv-date">2023~2024</div><div class="cv-role">项目主管（借调）</div></div>
+<div class="cv-row"><div class="cv-org">中国21世纪议程管理中心</div><div class="cv-date">2023~2024</div><div class="cv-role">项目主管（借调）</div></div>
+<div class="cv-row cv-row-note"><div class="cv-org"><span class="cv-org-note">（科技部→国家自然科学基金委员会）</span></div><div class="cv-date"></div><div class="cv-role"></div></div>
 </div>
 
 &nbsp;
