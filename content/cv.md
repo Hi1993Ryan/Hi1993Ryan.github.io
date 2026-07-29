@@ -25,9 +25,9 @@ description: "个人履历简介；完整英文版见 CV (EN)。"
 
 ## 技能
 
-量化与计算：R · Stata · SAS  
-写作与复现：LaTeX · Markdown · Zotero · Git  
-可视化：CiteSpace · VOSviewer · Tableau · GeoDa
+* R · Stata · SAS
+* LaTeX · Markdown · Zotero · Git
+* CiteSpace · VOSviewer · Tableau · GeoDa
 
 &nbsp;
 
