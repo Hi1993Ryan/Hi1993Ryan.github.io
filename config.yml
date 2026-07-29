@@ -12,10 +12,10 @@ taxonomies:
 
 menu:
     main:
-        - name: Papers
+        - name: Research
           url: pubs/
           weight: 1
-        - name: Courses
+        - name: Teaching
           url: courses/
           weight: 2
         - name: Projects
@@ -64,9 +64,9 @@ params:
           imageHeight: 160
           imageTitle: Dr. Jiangrui Liu
           buttons:
-            - name: Papers
+            - name: Research
               url: pubs/
-            - name: Courses
+            - name: Teaching
               url: courses/
             - name: Projects
               url: projects/
