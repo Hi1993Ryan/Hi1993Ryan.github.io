@@ -4,13 +4,19 @@
 
 .cv-row {
     display: grid;
-    /* Three equal columns across the same width as the section <hr> */
-    grid-template-columns: 1fr 1fr 1fr;
+    /* Col1 fits longest org on one line; col2/col3 split the rest of the hr width equally */
+    grid-template-columns: max-content 1fr 1fr;
     column-gap: 1.35em;
     align-items: baseline;
     margin: 0.55em 0;
     line-height: 1.45;
     width: 100%;
+}
+
+.cv-org {
+    white-space: nowrap;
+    /* Keep work/education first columns visually similar; fits 中国21世纪议程管理中心 */
+    min-width: 12.5em;
 }
 
 .cv-org-note {
@@ -24,6 +30,11 @@
 .cv-row-note {
     margin-top: -0.25em;
     margin-bottom: 0.55em;
+}
+
+.cv-row-note .cv-org {
+    white-space: normal;
+    min-width: 0;
 }
 
 .cv-date {
