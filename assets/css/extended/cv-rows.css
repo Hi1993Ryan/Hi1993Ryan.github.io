@@ -1,0 +1,40 @@
+.cv-rows {
+    margin: 0.35em 0 0.75em;
+}
+
+.cv-row {
+    display: grid;
+    grid-template-columns: minmax(12em, 1.45fr) 6.75em minmax(6em, 1fr);
+    column-gap: 1.1em;
+    align-items: start;
+    margin: 0.55em 0;
+    line-height: 1.45;
+}
+
+.cv-org-note {
+    display: block;
+    margin-top: 0.12em;
+    font-size: 0.85em;
+    color: var(--secondary);
+}
+
+.cv-date {
+    white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+    .cv-row {
+        grid-template-columns: 1fr;
+        row-gap: 0.12em;
+        margin: 0.85em 0;
+    }
+
+    .cv-date,
+    .cv-role {
+        padding-left: 0.1em;
+    }
+
+    .cv-date {
+        color: var(--secondary);
+    }
+}

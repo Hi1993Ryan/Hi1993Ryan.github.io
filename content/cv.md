@@ -6,17 +6,21 @@ description: "个人履历简介；完整英文版见 CV (EN)。"
 
 ## 工作
 ---
-* 重庆大学公共管理学院&emsp;&emsp;&emsp;&emsp;&emsp;2024~至今&emsp;&emsp;&emsp;&emsp;&nbsp;&thinsp; 行政管理系 &#124; 副主任
-* 重庆大学公共管理学院&emsp;&emsp;&emsp;&emsp;&emsp;2022~至今&emsp;&emsp;&emsp;&emsp;&ensp; 讲师
-* 中国21世纪议程管理中心<br><font size=2>（科技部→国家自然科学基金委员会）</font>&emsp;&emsp;&ensp;&nbsp;2023~2024&emsp;&emsp;&emsp;&emsp;&nbsp; 项目主管（借调）
+<div class="cv-rows">
+<div class="cv-row"><div class="cv-org">重庆大学公共管理学院</div><div class="cv-date">2024~至今</div><div class="cv-role">行政管理系 | 副主任</div></div>
+<div class="cv-row"><div class="cv-org">重庆大学公共管理学院</div><div class="cv-date">2022~至今</div><div class="cv-role">讲师</div></div>
+<div class="cv-row"><div class="cv-org">中国21世纪议程管理中心<span class="cv-org-note">（科技部→国家自然科学基金委员会）</span></div><div class="cv-date">2023~2024</div><div class="cv-role">项目主管（借调）</div></div>
+</div>
 
 &nbsp;
 ## 教育
 ---
-* 清华大学&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&ensp;&nbsp;2017~2021&emsp;&emsp;&emsp;&emsp; 博士（政治学）
-* 澳门科技大学&emsp;&emsp;&emsp;&emsp;&emsp;2019.6&emsp;&emsp;&emsp;&emsp; &ensp;&ensp;&nbsp;&nbsp;&nbsp;&thinsp;访问学者
-* 中国人民大学&emsp;&emsp;&emsp;&emsp;&emsp;2015~2017&emsp;&emsp;&emsp;&emsp; 硕士
-* 东北师范大学&emsp;&emsp;&emsp;&emsp;&emsp;2011~2015&emsp;&emsp;&emsp;&emsp; 学士
+<div class="cv-rows">
+<div class="cv-row"><div class="cv-org">清华大学</div><div class="cv-date">2017~2021</div><div class="cv-role">博士（政治学）</div></div>
+<div class="cv-row"><div class="cv-org">澳门科技大学</div><div class="cv-date">2019.6</div><div class="cv-role">访问学者</div></div>
+<div class="cv-row"><div class="cv-org">中国人民大学</div><div class="cv-date">2015~2017</div><div class="cv-role">硕士</div></div>
+<div class="cv-row"><div class="cv-org">东北师范大学</div><div class="cv-date">2011~2015</div><div class="cv-role">学士</div></div>
+</div>
 
 &nbsp;
 ## 荣誉
