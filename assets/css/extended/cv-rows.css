@@ -5,8 +5,8 @@
 .cv-row {
     display: grid;
     /* Fixed tracks so every row shares the same left edges for date/role */
-    grid-template-columns: 14em 7em 1fr;
-    column-gap: 1em;
+    grid-template-columns: 16.5em 7em 1fr;
+    column-gap: 1.35em;
     align-items: baseline;
     margin: 0.55em 0;
     line-height: 1.45;
