@@ -25,9 +25,11 @@ description: "个人履历简介；完整英文版见 CV (EN)。"
 
 ## 技能
 
-* R · Stata · SAS
-* LaTeX · Markdown · Zotero · Git
+* R · Python · Stata · SAS
+* NVivo · fsQCA · AI (agent & skills)
+* Zotero · LaTeX · Markdown
 * CiteSpace · VOSviewer · Tableau · GeoDa
+* Mandarin (Native) · English (Fluent)
 
 &nbsp;
 
