@@ -82,14 +82,4 @@ The 80$^{th}$ Annual Midwest Political Science Association Conference, Chicago, 
 
 `2019`
 [第五届 *Guanxi* for *Guanxi* Study 研讨会](http://www.csnr.tsinghua.edu.cn/info/1033/1050.htm)
-&nbsp;
-## Working Papers
-* Migration
-* Censorship
-* Bill Modification 
-* Populist Attitude
-* Eyes on Corruption
-* Political Participation 
-* Environmental Governance
-* 国家重点研发计划合作网络
-* …
+
