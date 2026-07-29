@@ -4,12 +4,13 @@
 
 .cv-row {
     display: grid;
-    /* Fixed tracks so every row shares the same left edges for date/role */
-    grid-template-columns: 16.5em 7em 1fr;
+    /* Three equal columns across the same width as the section <hr> */
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1.35em;
     align-items: baseline;
     margin: 0.55em 0;
     line-height: 1.45;
+    width: 100%;
 }
 
 .cv-org-note {
