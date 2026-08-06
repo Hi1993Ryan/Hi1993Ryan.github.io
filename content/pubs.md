@@ -7,7 +7,7 @@ math: true
 ## Journal articles
 
 `2026`
-Chengcheng Yue, Lili Shang & **Jiangrui Liu*** (corr. author). Stock Neutrality, Flow Crowding-Out, and State-Dependency: Revisiting the Debt-Health Nexus in OECD Europe. _European Journal of Health Economics_.
+Chengcheng Yue, Lili Shang & **Jiangrui Liu*** (corr. author). [Stock neutrality, flow crowding-out, and state dependence: revisiting the debt–health nexus in OECD Europe](https://doi.org/10.1007/s10198-026-01971-y). _European Journal of Health Economics_.
 
 `2026`
 Xiang Wang, Yihui Tong & **Jiangrui Liu*** (corr. author). [When Democracy Disappoints: Political, Economic, and Security Drivers of Emigration Intentions in Latin America](https://link.springer.com/article/10.1007/s12116-026-09505-6). _Studies in Comparative International Development_.
