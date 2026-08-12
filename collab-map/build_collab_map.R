@@ -146,13 +146,21 @@ gc_line <- function(lon1, lat1, lon2, lat2, n = 140) {
 }
 
 partners <- partners %>%
-  mutate(map_lon = vapply(lon, function(x) pacific_shift(home$lon, x), numeric(1)))
+  mutate(
+    map_lon = vapply(lon, function(x) pacific_shift(home$lon, x), numeric(1)),
+    # 中国大陆 vs 境外（港澳台及海外）
+    is_mainland = country == "China" &
+      !city %in% c("Macao", "Hong Kong", "Taipei", "Kaohsiung")
+  )
 
-# Airline-map palette: dark basemap + sky routes
+# Airline-map palette: mainland vs overseas routes
 col_home <- "#F4D35E"
-col_partner <- "#7EB6D9"
-col_route_glow <- "#4A90A4"
-col_route <- "#8FD3E8"
+col_partner_mainland <- "#E8B86D"
+col_partner_overseas <- "#7EB6D9"
+col_route_mainland <- "#E6A23C"
+col_route_mainland_glow <- "#C47F2A"
+col_route_overseas <- "#8FD3E8"
+col_route_overseas_glow <- "#4A90A4"
 
 route_css <- htmltools::tags$style(htmltools::HTML("
   .leaflet-container { background: #0b1220; }
@@ -162,10 +170,18 @@ route_css <- htmltools::tags$style(htmltools::HTML("
     padding: 8px 10px;
     border-radius: 4px;
     font: 12px/1.4 system-ui, sans-serif;
-    max-width: 230px;
+    max-width: 240px;
     border: 1px solid rgba(143, 211, 232, 0.35);
   }
   .airline-legend strong { color: #8FD3E8; }
+  .airline-legend .swatch {
+    display: inline-block;
+    width: 18px;
+    height: 3px;
+    vertical-align: middle;
+    margin-right: 6px;
+    border-radius: 1px;
+  }
 "))
 
 m <- leaflet(
@@ -186,32 +202,32 @@ m <- leaflet(
 for (i in seq_len(nrow(partners))) {
   p <- partners[i, ]
   arc <- gc_line(home$lon, home$lat, p$lon, p$lat)
-  # Visual weight: papers boost thickness; zero-paper links stay thin
   w <- 1.4 + 1.6 * log1p(max(p$n_papers, 1))
-  # Soft under-glow
+  route_col <- if (isTRUE(p$is_mainland)) col_route_mainland else col_route_overseas
+  glow_col <- if (isTRUE(p$is_mainland)) col_route_mainland_glow else col_route_overseas_glow
   m <- addPolylines(
     m,
     lng = arc[, 1],
     lat = arc[, 2],
-    color = col_route_glow,
+    color = glow_col,
     weight = w + 2.5,
     opacity = 0.22,
     group = "Routes"
   )
-  # Main dashed flight path
   m <- addPolylines(
     m,
     lng = arc[, 1],
     lat = arc[, 2],
-    color = col_route,
+    color = route_col,
     weight = w,
-    opacity = 0.85,
+    opacity = 0.88,
     dashArray = "10 8",
     group = "Routes"
   )
 }
 
 partner_radius <- 5 + 3.2 * sqrt(pmax(partners$n_papers, 1))
+partner_fill <- ifelse(partners$is_mainland, col_partner_mainland, col_partner_overseas)
 zh_line <- ifelse(
   partners$name_zh != "",
   paste0("<br><span style='color:#9ab;'>", htmltools::htmlEscape(partners$name_zh), "</span>"),
@@ -254,7 +270,7 @@ m <- addCircleMarkers(
   radius = partner_radius,
   color = "#0b1220",
   weight = 2,
-  fillColor = col_partner,
+  fillColor = partner_fill,
   fillOpacity = 0.95,
   popup = partner_popups,
   label = partners$display_label,
@@ -290,9 +306,10 @@ m <- addCircleMarkers(
   addControl(
     html = paste0(
       "<div class='airline-legend'>",
-      "<strong>Airline-style collaboration routes</strong><br>",
+      "<strong>Collaboration routes</strong><br>",
       "Hub: ", htmltools::htmlEscape(home$name), "<br>",
-      "Dashed arcs = great-circle routes<br>",
+      "<span class='swatch' style='background:#E6A23C;'></span>Mainland China<br>",
+      "<span class='swatch' style='background:#8FD3E8;'></span>Overseas<br>",
       "Click a node for details",
       "</div>"
     ),
