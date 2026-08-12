@@ -1,16 +1,14 @@
 ---
-title: "科研项目" 
-#date: 2024-01-12
+title: "主持科研项目"
 url: projects/
 tags: ["中国政治","政治态度","社会观念","社会网络","生命历程","Text Analysis","科技管理","比较政治","量化研究方法","计算社会科学","时空演变","Cohort"]
-author: "主持人：刘江锐"
-description: "主持和参与的科研项目简介。"
-summary: "科研项目一览与简要说明。" 
+description: "主持科研项目简介。"
+summary: "主持科研项目一览与简要说明。"
+hideMeta: true
 cover:
     image: "/data1.png"
     alt: "Research projects illustration"
     relative: false
-# showToc: true
 disableAnchoredHeadings: false
 
 ---

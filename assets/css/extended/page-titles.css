@@ -1,0 +1,5 @@
+/* Match Research (.post-title) page heading size on section list pages (e.g. Teaching). */
+.page-header h1 {
+    font-size: 36px;
+    line-height: 1.3;
+}

@@ -1,8 +1,8 @@
 ---
 title: Research
-author: 刘江锐
 wideContent: true
 math: true
+hideMeta: true
 ---
 ## Journal articles
 

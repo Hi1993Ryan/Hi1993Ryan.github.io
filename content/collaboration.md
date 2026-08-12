@@ -3,6 +3,7 @@ title: Collaboration Network
 url: collaboration/
 wideContent: true
 ShowShareButtons: false
+hideMeta: true
 description: "Interactive map of co-author institutions."
 summary: "Institution-level collaboration map."
 ---

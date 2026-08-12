@@ -79,9 +79,7 @@ paper_lookup <- papers %>%
 
 partners <- partners %>% left_join(paper_lookup, by = "id")
 
-# Keep Western Hemisphere destinations on the Pacific side (lon + 360)
-# so Asia→US routes cross the Pacific as continuous arcs, not via the Arctic
-# (which breaks / looks discontinuous on a flat web map).
+# Western Hemisphere: draw on the Pacific copy (lon + 360)
 pacific_shift <- function(lon1, lon2) {
   if (isTRUE(lon1 > 60) && isTRUE(lon2 < -20)) lon2 + 360 else lon2
 }
@@ -95,11 +93,47 @@ unwrap_lon <- function(lon) {
   lon
 }
 
-# Great-circle “flight path” polyline (Pacific-preferring for Asia→Americas)
+stitch_gc <- function(waypoints, n_per_seg = 28) {
+  pts <- NULL
+  for (i in seq_len(nrow(waypoints) - 1)) {
+    seg <- geosphere::gcIntermediate(
+      waypoints[i, ], waypoints[i + 1, ],
+      n = n_per_seg, addStartEnd = TRUE, sp = FALSE
+    )
+    if (is.null(dim(seg))) seg <- matrix(seg, ncol = 2, byrow = FALSE)
+    seg <- as.matrix(seg)
+    pts <- if (is.null(pts)) seg else rbind(pts, seg[-1, , drop = FALSE])
+  }
+  pts[, 1] <- unwrap_lon(pts[, 1])
+  pts
+}
+
+# Asia→Americas: mid-latitude Pacific corridor (avoids Arctic orthodrome kinks).
+# Other routes: ordinary great-circle.
 gc_line <- function(lon1, lat1, lon2, lat2, n = 140) {
-  lon2 <- pacific_shift(lon1, lon2)
+  to_americas <- isTRUE(lon1 > 60) && isTRUE(lon2 < -20)
+  lon2_plot <- pacific_shift(lon1, lon2)
+
+  if (to_americas) {
+    # Corridor ~30–38°N across the Pacific, then into North America
+    waypoints <- matrix(
+      c(
+        lon1, lat1,
+        130, 32,
+        150, 30,
+        170, 31,
+        190, 33,
+        215, 36,
+        240, 39,
+        lon2_plot, lat2
+      ),
+      ncol = 2, byrow = TRUE
+    )
+    return(stitch_gc(waypoints, n_per_seg = max(12L, as.integer(n / 8))))
+  }
+
   pts <- geosphere::gcIntermediate(
-    c(lon1, lat1), c(lon2, lat2),
+    c(lon1, lat1), c(lon2_plot, lat2),
     n = n, addStartEnd = TRUE, sp = FALSE
   )
   if (is.null(dim(pts))) {
