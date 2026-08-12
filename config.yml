@@ -21,9 +21,12 @@ menu:
         - name: Projects
           url: projects/
           weight: 3
+        - name: Network
+          url: collaboration/
+          weight: 4
         - name: CV (EN)
           url: cv.pdf
-          weight: 4
+          weight: 5
 
 params:
     mainSections:
@@ -70,6 +73,8 @@ params:
               url: courses/
             - name: Projects
               url: projects/
+            - name: Network
+              url: collaboration/
             - name: CV (EN)
               url: cv.pdf
             - name: Tags

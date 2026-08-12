@@ -41,4 +41,10 @@ disableAnchoredHeadings: false
 
 &nbsp;
 
+### Collaboration network
+
+机构级合著网络地图（可点击）：[Collaboration Network](/collaboration/)
+
+&nbsp;
+
 #### If you have comments or suggestions about these projects, would like to discuss, or simply discover gaps to work together, please [do email me](mailto:serenity@cqu.edu.cn).

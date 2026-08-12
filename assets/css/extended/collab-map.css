@@ -1,0 +1,17 @@
+.collab-map-frame {
+    display: block;
+    width: 100%;
+    height: min(72vh, 640px);
+    min-height: 420px;
+    border: 0;
+    border-radius: 2px;
+    margin: 0.75em 0 1.25em;
+    background: #f4f4f2;
+}
+
+@media (max-width: 640px) {
+    .collab-map-frame {
+        height: 70vh;
+        min-height: 360px;
+    }
+}
