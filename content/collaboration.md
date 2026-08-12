@@ -7,9 +7,9 @@ description: "Interactive map of co-author institutions."
 summary: "Institution-level collaboration map."
 ---
 
-按**合作机构**汇总已发表论文中的合著关系；以重庆大学为枢纽，弧线连向各合作机构。点击节点可查看合著论文与机构链接。
+按**合作机构**汇总合著关系；以重庆大学为枢纽，**航线式大圆航线**连向各合作机构。点击节点可查看合著论文与机构链接。国外机构仅显示英文名称。
 
-Nodes are **institutions** linked through co-authored publications, with Chongqing University as the hub. Click a marker for papers and links.
+Institution-level collaboration map with **airline-style great-circle routes** from Chongqing University. Click a marker for papers and links. Foreign institutions are labeled in English only.
 
 {{< rawhtml >}}
 <iframe

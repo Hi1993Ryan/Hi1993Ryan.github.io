@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
-# Build an interactive institution-level collaboration map for the Hugo site.
-# Usage (from repo root or this folder):
+# Build an airline-style institution collaboration map for the Hugo site.
+# Usage (from site repo root):
 #   Rscript collab-map/build_collab_map.R
 
 suppressPackageStartupMessages({
@@ -41,11 +41,15 @@ counts <- paper_links %>%
   count(ids, name = "n_papers") %>%
   rename(id = ids)
 
+# Show every partner institution in the CSV (arcs always drawn; papers optional)
 partners <- institutions %>%
   filter(!is_home) %>%
   left_join(counts, by = "id") %>%
-  mutate(n_papers = tidyr::replace_na(n_papers, 0L)) %>%
-  filter(n_papers > 0) %>%
+  mutate(
+    n_papers = tidyr::replace_na(n_papers, 0L),
+    name_zh = tidyr::replace_na(name_zh, ""),
+    display_label = name
+  ) %>%
   arrange(desc(n_papers), name)
 
 paper_lookup <- papers %>%
@@ -59,7 +63,11 @@ paper_lookup <- papers %>%
       "<li>", year, " — ",
       ifelse(
         !is.na(doi) & doi != "",
-        paste0("<a href='https://doi.org/", doi, "' target='_blank' rel='noopener noreferrer'>", htmltools::htmlEscape(title), "</a>"),
+        paste0(
+          "<a href='https://doi.org/", doi,
+          "' target='_blank' rel='noopener noreferrer'>",
+          htmltools::htmlEscape(title), "</a>"
+        ),
         htmltools::htmlEscape(title)
       ),
       "</li>",
@@ -71,7 +79,8 @@ paper_lookup <- papers %>%
 
 partners <- partners %>% left_join(paper_lookup, by = "id")
 
-gc_line <- function(lon1, lat1, lon2, lat2, n = 80) {
+# Great-circle “flight path” polyline
+gc_line <- function(lon1, lat1, lon2, lat2, n = 140) {
   pts <- geosphere::gcIntermediate(
     c(lon1, lat1), c(lon2, lat2),
     n = n, addStartEnd = TRUE, sp = FALSE
@@ -79,50 +88,106 @@ gc_line <- function(lon1, lat1, lon2, lat2, n = 80) {
   if (is.null(dim(pts))) {
     matrix(pts, ncol = 2, byrow = FALSE)
   } else {
-    pts
+    as.matrix(pts)
   }
 }
 
-# Soft academic palette (avoid purple/glow defaults)
-col_home <- "#0F4C5C"
-col_partner <- "#5C7A6E"
-col_arc <- "#7A8B7A"
-col_arc_strong <- "#0F4C5C"
+# Airline-map palette: dark basemap + sky routes
+col_home <- "#F4D35E"
+col_partner <- "#7EB6D9"
+col_route_glow <- "#4A90A4"
+col_route <- "#8FD3E8"
 
-m <- leaflet(options = leafletOptions(minZoom = 2, worldCopyJump = TRUE)) %>%
-  addProviderTiles(providers$CartoDB.Positron) %>%
-  setView(lng = home$lon, lat = home$lat, zoom = 2)
+route_css <- htmltools::tags$style(htmltools::HTML("
+  .leaflet-container { background: #0b1220; }
+  .airline-legend {
+    background: rgba(12, 18, 32, 0.88);
+    color: #e8eef5;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font: 12px/1.4 system-ui, sans-serif;
+    max-width: 230px;
+    border: 1px solid rgba(143, 211, 232, 0.35);
+  }
+  .airline-legend strong { color: #8FD3E8; }
+"))
+
+m <- leaflet(
+  options = leafletOptions(
+    minZoom = 2,
+    worldCopyJump = TRUE,
+    zoomControl = TRUE
+  )
+) %>%
+  addProviderTiles(
+    providers$CartoDB.DarkMatter,
+    options = providerTileOptions(opacity = 0.95)
+  ) %>%
+  setView(lng = 40, lat = 28, zoom = 2) %>%
+  htmlwidgets::prependContent(route_css)
 
 for (i in seq_len(nrow(partners))) {
   p <- partners[i, ]
   arc <- gc_line(home$lon, home$lat, p$lon, p$lat)
-  weight <- 1.2 + 1.4 * log1p(p$n_papers)
+  # Visual weight: papers boost thickness; zero-paper links stay thin
+  w <- 1.4 + 1.6 * log1p(max(p$n_papers, 1))
+  # Soft under-glow
   m <- addPolylines(
     m,
     lng = arc[, 1],
     lat = arc[, 2],
-    color = if (p$n_papers >= 2) col_arc_strong else col_arc,
-    weight = weight,
-    opacity = 0.55,
-    group = "Links"
+    color = col_route_glow,
+    weight = w + 2.5,
+    opacity = 0.22,
+    group = "Routes"
+  )
+  # Main dashed flight path
+  m <- addPolylines(
+    m,
+    lng = arc[, 1],
+    lat = arc[, 2],
+    color = col_route,
+    weight = w,
+    opacity = 0.85,
+    dashArray = "10 8",
+    group = "Routes"
   )
 }
 
-partner_radius <- 6 + 4 * sqrt(partners$n_papers)
+partner_radius <- 5 + 3.2 * sqrt(pmax(partners$n_papers, 1))
+zh_line <- ifelse(
+  partners$name_zh != "",
+  paste0("<br><span style='color:#9ab;'>", htmltools::htmlEscape(partners$name_zh), "</span>"),
+  ""
+)
+paper_block <- ifelse(
+  partners$n_papers > 0,
+  paste0(
+    "<br><em>", partners$n_papers, " co-authored paper",
+    ifelse(partners$n_papers == 1, "", "s"), "</em>",
+    "<ul style='margin:0.4em 0 0;padding-left:1.1em;font-size:0.9em;'>",
+    tidyr::replace_na(partners$paper_list, ""),
+    "</ul>"
+  ),
+  "<br><em>Collaborating institution</em>"
+)
+
 partner_popups <- paste0(
   "<div style='min-width:220px;max-width:320px;font-family:system-ui,sans-serif;'>",
   "<strong>", htmltools::htmlEscape(partners$name), "</strong>",
-  ifelse(!is.na(partners$name_zh) & partners$name_zh != "",
-         paste0("<br><span style='color:#555;'>", htmltools::htmlEscape(partners$name_zh), "</span>"),
-         ""),
-  "<br>", htmltools::htmlEscape(partners$city), ", ", htmltools::htmlEscape(partners$country),
-  "<br><em>", partners$n_papers, " co-authored paper", ifelse(partners$n_papers == 1, "", "s"), "</em>",
-  ifelse(!is.na(partners$url) & partners$url != "",
-         paste0("<br><a href='", partners$url, "' target='_blank' rel='noopener noreferrer'>Institution site</a>"),
-         ""),
-  "<ul style='margin:0.4em 0 0;padding-left:1.1em;font-size:0.9em;'>",
-  partners$paper_list,
-  "</ul></div>"
+  zh_line,
+  "<br>", htmltools::htmlEscape(partners$city), ", ",
+  htmltools::htmlEscape(partners$country),
+  paper_block,
+  ifelse(
+    !is.na(partners$url) & partners$url != "",
+    paste0(
+      "<br><a href='", partners$url,
+      "' target='_blank' rel='noopener noreferrer'>Institution site</a>"
+    ),
+    ""
+  ),
+  "</div>"
 )
 
 m <- addCircleMarkers(
@@ -130,20 +195,20 @@ m <- addCircleMarkers(
   lng = partners$lon,
   lat = partners$lat,
   radius = partner_radius,
-  color = "#fff",
-  weight = 1.5,
+  color = "#0b1220",
+  weight = 2,
   fillColor = col_partner,
-  fillOpacity = 0.9,
+  fillOpacity = 0.95,
   popup = partner_popups,
-  label = partners$name,
+  label = partners$display_label,
   group = "Institutions"
 )
 
 home_popup <- paste0(
   "<div style='min-width:200px;font-family:system-ui,sans-serif;'>",
   "<strong>", htmltools::htmlEscape(home$name), "</strong>",
-  "<br><span style='color:#555;'>", htmltools::htmlEscape(home$name_zh), "</span>",
-  "<br>Home institution",
+  "<br><span style='color:#9ab;'>", htmltools::htmlEscape(home$name_zh), "</span>",
+  "<br>Home institution / hub",
   "<br><a href='", home$url, "' target='_blank' rel='noopener noreferrer'>Institution site</a>",
   "</div>"
 )
@@ -152,8 +217,8 @@ m <- addCircleMarkers(
   m,
   lng = home$lon,
   lat = home$lat,
-  radius = 11,
-  color = "#fff",
+  radius = 10,
+  color = "#0b1220",
   weight = 2,
   fillColor = col_home,
   fillOpacity = 1,
@@ -162,22 +227,22 @@ m <- addCircleMarkers(
   group = "Home"
 ) %>%
   addLayersControl(
-    overlayGroups = c("Home", "Institutions", "Links"),
+    overlayGroups = c("Home", "Institutions", "Routes"),
     options = layersControlOptions(collapsed = TRUE)
   ) %>%
   addControl(
     html = paste0(
-      "<div style='background:rgba(255,255,255,0.92);padding:8px 10px;border-radius:4px;",
-      "font:12px/1.35 system-ui,sans-serif;color:#222;max-width:220px;'>",
-      "<strong>Collaboration network</strong><br>",
-      "Nodes = institutions<br>",
-      "Arcs from ", htmltools::htmlEscape(home$name), "<br>",
-      "Click a node for papers",
+      "<div class='airline-legend'>",
+      "<strong>Airline-style collaboration routes</strong><br>",
+      "Hub: ", htmltools::htmlEscape(home$name), "<br>",
+      "Dashed arcs = great-circle routes<br>",
+      "Click a node for details",
       "</div>"
     ),
     position = "bottomleft"
   )
 
+# Prefer a single file when pandoc is available; otherwise keep dependency folder
 saveWidget(m, out_file, selfcontained = TRUE, title = "Collaboration network")
 message("Wrote ", out_file)
 message("Partners: ", nrow(partners), " | Papers: ", nrow(papers))
