@@ -79,18 +79,40 @@ paper_lookup <- papers %>%
 
 partners <- partners %>% left_join(paper_lookup, by = "id")
 
-# Great-circle “flight path” polyline
+# Keep Western Hemisphere destinations on the Pacific side (lon + 360)
+# so Asia→US routes cross the Pacific as continuous arcs, not via the Arctic
+# (which breaks / looks discontinuous on a flat web map).
+pacific_shift <- function(lon1, lon2) {
+  if (isTRUE(lon1 > 60) && isTRUE(lon2 < -20)) lon2 + 360 else lon2
+}
+
+unwrap_lon <- function(lon) {
+  if (length(lon) < 2) return(lon)
+  for (i in 2:length(lon)) {
+    while (lon[i] - lon[i - 1] > 180) lon[i] <- lon[i] - 360
+    while (lon[i] - lon[i - 1] < -180) lon[i] <- lon[i] + 360
+  }
+  lon
+}
+
+# Great-circle “flight path” polyline (Pacific-preferring for Asia→Americas)
 gc_line <- function(lon1, lat1, lon2, lat2, n = 140) {
+  lon2 <- pacific_shift(lon1, lon2)
   pts <- geosphere::gcIntermediate(
     c(lon1, lat1), c(lon2, lat2),
     n = n, addStartEnd = TRUE, sp = FALSE
   )
   if (is.null(dim(pts))) {
-    matrix(pts, ncol = 2, byrow = FALSE)
+    pts <- matrix(pts, ncol = 2, byrow = FALSE)
   } else {
-    as.matrix(pts)
+    pts <- as.matrix(pts)
   }
+  pts[, 1] <- unwrap_lon(pts[, 1])
+  pts
 }
+
+partners <- partners %>%
+  mutate(map_lon = vapply(lon, function(x) pacific_shift(home$lon, x), numeric(1)))
 
 # Airline-map palette: dark basemap + sky routes
 col_home <- "#F4D35E"
@@ -123,7 +145,8 @@ m <- leaflet(
     providers$CartoDB.DarkMatter,
     options = providerTileOptions(opacity = 0.95)
   ) %>%
-  setView(lng = 40, lat = 28, zoom = 2) %>%
+  # Pacific-centered: Asia left, Americas right → continuous Pacific routes
+  setView(lng = 155, lat = 22, zoom = 2) %>%
   htmlwidgets::prependContent(route_css)
 
 for (i in seq_len(nrow(partners))) {
@@ -192,7 +215,7 @@ partner_popups <- paste0(
 
 m <- addCircleMarkers(
   m,
-  lng = partners$lon,
+  lng = partners$map_lon,
   lat = partners$lat,
   radius = partner_radius,
   color = "#0b1220",
