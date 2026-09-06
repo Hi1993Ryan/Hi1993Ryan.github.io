@@ -164,6 +164,10 @@ col_route_overseas_glow <- "#4A90A4"
 
 route_css <- htmltools::tags$style(htmltools::HTML("
   .leaflet-container { background: #0b1220; }
+  /* Dark Matter–like look from free OSM tiles (no API key); keep overlays unfiltered */
+  .leaflet-tile-pane {
+    filter: invert(1) hue-rotate(180deg) brightness(0.92) contrast(0.95) saturate(0.7);
+  }
   .airline-legend {
     background: rgba(12, 18, 32, 0.88);
     color: #e8eef5;
@@ -191,22 +195,11 @@ m <- leaflet(
     zoomControl = TRUE
   )
 ) %>%
-  # Esri dark gray — no API key (CartoDB DarkMatter now watermarks without one)
+  # OpenStreetMap: clear country/city labels; CSS above gives dark Carto-like style
   addTiles(
-    urlTemplate = paste0(
-      "https://server.arcgisonline.com/ArcGIS/rest/services/",
-      "Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
-    ),
-    attribution = "Tiles &copy; Esri",
-    options = tileOptions(opacity = 0.95)
-  ) %>%
-  addTiles(
-    urlTemplate = paste0(
-      "https://server.arcgisonline.com/ArcGIS/rest/services/",
-      "Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}"
-    ),
-    options = tileOptions(opacity = 0.85),
-    group = "Labels"
+    urlTemplate = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    attribution = "&copy; OpenStreetMap contributors",
+    options = tileOptions(opacity = 1)
   ) %>%
   # Pacific-centered: Asia left, Americas right → continuous Pacific routes
   setView(lng = 155, lat = 22, zoom = 2) %>%
