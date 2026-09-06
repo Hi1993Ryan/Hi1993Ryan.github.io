@@ -191,9 +191,22 @@ m <- leaflet(
     zoomControl = TRUE
   )
 ) %>%
-  addProviderTiles(
-    providers$CartoDB.DarkMatter,
-    options = providerTileOptions(opacity = 0.95)
+  # Esri dark gray — no API key (CartoDB DarkMatter now watermarks without one)
+  addTiles(
+    urlTemplate = paste0(
+      "https://server.arcgisonline.com/ArcGIS/rest/services/",
+      "Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+    ),
+    attribution = "Tiles &copy; Esri",
+    options = tileOptions(opacity = 0.95)
+  ) %>%
+  addTiles(
+    urlTemplate = paste0(
+      "https://server.arcgisonline.com/ArcGIS/rest/services/",
+      "Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}"
+    ),
+    options = tileOptions(opacity = 0.85),
+    group = "Labels"
   ) %>%
   # Pacific-centered: Asia left, Americas right → continuous Pacific routes
   setView(lng = 155, lat = 22, zoom = 2) %>%
