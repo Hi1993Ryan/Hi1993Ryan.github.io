@@ -1,36 +1,27 @@
-.buttons,
 .main .profile {
     display: flex;
     justify-content: left;
-}
-.main .profile {
-    align-items: center;
-/*    min-height: calc(100vh  - (var(--gap) * 2));*/
-/*    min-height: calc(100vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2));*/
+    align-items: flex-start;
     min-height: calc(100vh - var(--footer-height) - (var(--gap) * 2));
     font-size: var(--homesize);
     line-height: var(--lineheight);
 }
 
-.profile .profile_inner h1 {
-    padding: 12px 0;
-    font-size: 40px;
-}
-
-.profile img {
-    display: inline-table;
-    border-radius: 15px; /* 设置圆角方框的半径 */
-    border: 2px solid rgba(52, 152, 219, 0.0); /* 更改边框颜色和宽度 */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
-    max-width: 100%; /* 设置图片最大宽度为容器的100% */
-    height: auto; /* 高度自动调整 */
-    padding: 0px; /* 内边距，用于在图片周围添加间距 */
-    background-color: rgba(52, 152, 219, 0.0); /* 背景颜色，模仿Mac软件风格 */
+.profile img.profile-avatar {
+    display: block;
+    border-radius: 15px;
+    border: 2px solid rgba(52, 152, 219, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: transparent;
 }
 
 .buttons {
+    display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .button {
