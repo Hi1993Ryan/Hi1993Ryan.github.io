@@ -31,7 +31,9 @@
         {{- end }}
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <span>{{ .subtitle | markdownify }}</span>
+        {{- with .subtitle }}
+        <span class="profile-subtitle-zh" lang="zh">{{ . | markdownify }}</span>
+        {{- end }}
 
         <figure class="cohort-history">
             <img
@@ -51,6 +53,10 @@
                 loading="lazy"
                 decoding="async" />
         </figure>
+
+        {{- with .subtitleEn }}
+        <span class="profile-subtitle-en" lang="en">{{ . | markdownify }}</span>
+        {{- end }}
 
         {{- partial "social_icons.html" site.Params.socialIcons -}}
 

@@ -1,8 +1,12 @@
-/* Homepage cohort chart: transparent PNGs from R; no card chrome */
+/* Homepage cohort chart: between zh/en blurbs; transparent PNGs from R */
 .profile .cohort-history {
-    margin: 1.1em 0 0.35em;
+    margin: 1.15em 0 1.25em;
     width: 100%;
     max-width: 52rem;
+}
+
+.profile .profile-subtitle-en {
+    display: block;
 }
 
 .profile .cohort-history-img {
