@@ -39,19 +39,19 @@ font <- "PT Sans Narrow"
 
 themes <- list(
   light = list(
-    event = "#C8CBCE",
-    label = "#5A6066",
-    axis = "#6E747A",
-    axis_line = "#A3A7A8",
-    caption = "#5A6066",
+    event = "#B0B4B8",
+    label = "#3A4046",
+    axis = "#4A5056",
+    axis_line = "#8A8E90",
+    caption = "#3A4046",
     title = "#1A1A1A"
   ),
   dark = list(
-    event = "#4A5058",
-    label = "#B8BEC6",
-    axis = "#A8AEB6",
-    axis_line = "#6A7078",
-    caption = "#A8AEB6",
+    event = "#5A6068",
+    label = "#D0D5DB",
+    axis = "#C4CAD2",
+    axis_line = "#7A8088",
+    caption = "#C4CAD2",
     title = "#E8E8EA"
   )
 )
@@ -84,10 +84,11 @@ draw <- function(th) {
     }
     text(lx, ly, paste("Born", z$birth), adj = c(0, .5), col = z$color, font = 2, cex = .91)
   }
-  axis(1, at = c(seq(1900, 2020, 20), 2026), lwd = 0, lwd.ticks = .7, col = th$axis, cex.axis = .88, tck = -.016, col.axis = th$axis)
+  # Tick through 2020 only; leave the right edge open so the future is not capped at 2026
+  axis(1, at = seq(1900, 2020, 20), lwd = 0, lwd.ticks = .7, col = th$axis, cex.axis = .88, tck = -.016, col.axis = th$axis)
   axis(2, at = seq(0, 1, .25), labels = c("0", ".25", ".50", ".75", "1"), lwd = 0, lwd.ticks = .7,
        col = th$axis, cex.axis = .86, tck = -.010, col.axis = th$axis)
-  segments(1900, 0, 2026, 0, col = th$axis_line, lwd = .7)
+  segments(1900, 0, 2037, 0, col = th$axis_line, lwd = .7)
   mtext("Calendar year", side = 1, line = 2.4, adj = 0, col = th$axis)
   mtext("Illustrative outcome", side = 2, line = 2.8, las = 0, col = th$axis)
   title(main = "Generations Across China's Historical Time", adj = 0, line = 3, cex.main = 1.8, col.main = th$title)
