@@ -16,6 +16,8 @@
 .profile .profile-subtitle-zh,
 .profile .profile-subtitle-en {
     display: block;
+    text-align: justify;
+    text-justify: inter-ideograph;
 }
 
 .profile .cohort-history-img {
