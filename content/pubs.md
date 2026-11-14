@@ -1,6 +1,7 @@
 ---
 title: Research
 wideContent: true
+justifyText: true
 math: true
 hideMeta: true
 ---

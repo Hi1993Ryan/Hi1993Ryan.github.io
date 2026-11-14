@@ -49,3 +49,17 @@
   }
 </style>
 {{- end }}
+{{- if .Params.justifyText }}
+<style>
+  .post-content {
+    text-align: justify;
+    text-justify: inter-ideograph;
+  }
+  .post-content h1,
+  .post-content h2,
+  .post-content h3,
+  .post-content h4 {
+    text-align: left;
+  }
+</style>
+{{- end }}
