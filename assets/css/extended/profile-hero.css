@@ -26,14 +26,14 @@
 }
 
 .profile .profile-hero-main h1 {
-    padding: 0 0 0.45em;
+    padding: 0 0 0.28em;
     margin: 0;
     font-size: clamp(1.55rem, 2.6vw, 2.35rem);
     line-height: 1.25;
 }
 
 .profile .profile-hero-main .social-icons {
-    margin: 0 0 0.55em;
+    margin: 0 0 0.32em;
 }
 
 .profile .profile-hero-main .buttons {
