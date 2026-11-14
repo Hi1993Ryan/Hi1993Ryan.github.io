@@ -99,7 +99,8 @@ draw <- function(th) {
 
 for (nm in names(themes)) {
   path <- file.path(out_dir, sprintf("generations-historical-time-%s.png", nm))
-  ragg::agg_png(path, width = 2400, height = 1260, res = 200, background = "transparent")
+  # 3600×1890 @ 300 dpi ≈ 3× a ~1200 CSS-px homepage display
+  ragg::agg_png(path, width = 3600, height = 1890, res = 300, background = "transparent")
   draw(themes[[nm]])
   invisible(dev.off())
   message("Wrote ", path)
