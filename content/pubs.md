@@ -8,10 +8,10 @@ hideMeta: true
 ## Journal articles
 
 `2026`
-**Jiangrui Liu**. [Longitudinal Inquiry into Public Sentiments on Environmental Governance in China](https://doi.org/10.1177/00219096261503027). _Journal of Asian and African Studies_. [<a href="https://doi.org/10.7910/DVN/02QCZ6" target="_blank" rel="noopener noreferrer">replication materials</a>]
+Yu-Sung Su & **Jiangrui Liu*** (corr. author). The Temporal Dynamics of Online Moderation in China. _Journal of Chinese Political Science_.
 
 `2026`
-Yu-Sung Su & **Jiangrui Liu*** (corr. author). The Temporal Dynamics of Online Moderation in China. _Journal of Chinese Political Science_.
+**Jiangrui Liu**. [Longitudinal Inquiry into Public Sentiments on Environmental Governance in China](https://doi.org/10.1177/00219096261503027). _Journal of Asian and African Studies_. [<a href="https://doi.org/10.7910/DVN/02QCZ6" target="_blank" rel="noopener noreferrer">replication materials</a>]
 
 `2026`
 Chengcheng Yue, Lili Shang & **Jiangrui Liu*** (corr. author). [Stock neutrality, flow crowding-out, and state dependence: revisiting the debt–health nexus in OECD Europe](https://doi.org/10.1007/s10198-026-01971-y). _European Journal of Health Economics_.
