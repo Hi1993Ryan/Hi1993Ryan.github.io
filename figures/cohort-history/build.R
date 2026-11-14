@@ -63,10 +63,13 @@ draw <- function(th) {
   text(events$year, 1.145, events$label, adj = c(.5, 1), cex = .82, col = th$label)
   for (i in seq_len(nrow(cohorts))) {
     z <- cohorts[i, ]
-    age <- seq(18, min(80, 2026 - z$birth), by = .1)
+    # Start at birth (age 0) so the curve origin matches the birth year on the x-axis
+    age <- seq(0, min(80, 2026 - z$birth), by = .1)
     year <- z$birth + age
     y <- .12 + z$height * .86 * exp(-.5 * ((age - z$peak) / ifelse(age < z$peak, z$rise, z$fall))^2)
     lines(year, y, col = z$color, lwd = 2.45)
+    # Mark birth-year origin
+    points(year[1], y[1], pch = 16, cex = 0.7, col = z$color)
     xx <- tail(year, 1)
     yy <- tail(y, 1)
     ly <- c(yy, yy, .664, yy, .510)[i]
