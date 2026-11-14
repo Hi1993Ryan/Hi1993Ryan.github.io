@@ -8,28 +8,28 @@ hideMeta: true
 ## Journal articles
 
 `2026`
-Yu-Sung Su & **Jiangrui Liu*** (corr. author). The Temporal Dynamics of Online Moderation in China. _Journal of Chinese Political Science_.
+Yu-Sung Su & **Jiangrui Liu*** (corr. author). The temporal dynamics of online moderation in China. _Journal of Chinese Political Science_.
 
 `2026`
-**Jiangrui Liu**. [Longitudinal Inquiry into Public Sentiments on Environmental Governance in China](https://doi.org/10.1177/00219096261503027). _Journal of Asian and African Studies_. [<a href="https://doi.org/10.7910/DVN/02QCZ6" target="_blank" rel="noopener noreferrer">replication materials</a>]
+**Jiangrui Liu**. [Longitudinal inquiry into public sentiments on environmental governance in China](https://doi.org/10.1177/00219096261503027). _Journal of Asian and African Studies_. [<a href="https://doi.org/10.7910/DVN/02QCZ6" target="_blank" rel="noopener noreferrer">replication materials</a>]
 
 `2026`
 Chengcheng Yue, Lili Shang & **Jiangrui Liu*** (corr. author). [Stock neutrality, flow crowding-out, and state dependence: revisiting the debt–health nexus in OECD Europe](https://doi.org/10.1007/s10198-026-01971-y). _European Journal of Health Economics_.
 
 `2026`
-Xiang Wang, Yihui Tong & **Jiangrui Liu*** (corr. author). [When Democracy Disappoints: Political, Economic, and Security Drivers of Emigration Intentions in Latin America](https://link.springer.com/article/10.1007/s12116-026-09505-6). _Studies in Comparative International Development_.
+Xiang Wang, Yihui Tong & **Jiangrui Liu*** (corr. author). [When democracy disappoints: Political, economic, and security drivers of emigration intentions in Latin America](https://link.springer.com/article/10.1007/s12116-026-09505-6). _Studies in Comparative International Development_.
 
 `2026`
-Hui Yang, Xiaohong Yu & **Jiangrui Liu*** (corr. author). [Decoding Legislative Dynamics: Empirics on Bill Modifications in China](https://journals.sagepub.com/doi/10.1177/00323217261428857). _Political Studies_. [<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VUWDDL" target="_blank" rel="noopener noreferrer">replication materials</a>]
+Hui Yang, Xiaohong Yu & **Jiangrui Liu*** (corr. author). [Decoding legislative dynamics: Empirics on bill modifications in China](https://journals.sagepub.com/doi/10.1177/00323217261428857). _Political Studies_. [<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VUWDDL" target="_blank" rel="noopener noreferrer">replication materials</a>]
 
 `2025`
-Xiang Wang, Yihui Tong & **Jiangrui Liu*** (corr. author). [The Rise and Fall of Exclusion: A Longitudinal Study of U.S. Attitudes Toward Immigration](https://journals.sagepub.com/home/IPS). _International Political Science Review_.
+Xiang Wang, Yihui Tong & **Jiangrui Liu*** (corr. author). [The rise and fall of exclusion: A longitudinal study of U.S. attitudes toward immigration](https://journals.sagepub.com/home/IPS). _International Political Science Review_.
 
 `2025`
 **刘江锐** & 苏毓淞. [大语言模型提升社会化身研究潜力](https://www.cssn.cn/skgz/bwyc/202504/t20250425_5870796.shtml). _中国社会科学报_.
 
 `2024`
-**Jiangrui Liu*** (corr. author) & Hui Yang. [Divergence in Chinese Sexual Attitudes: An Age-Period-Cohort Analysis](https://rdcu.be/dJ3Ix). _Archives of Sexual Behavior_. [mentioned by [*PsyPost*](https://www.psypost.org/study-reveals-evolving-sexual-attitudes-in-china-influenced-by-age-urban-rural-divide-and-political-status/)]
+**Jiangrui Liu*** (corr. author) & Hui Yang. [Divergence in Chinese sexual attitudes: An age-period-cohort analysis](https://rdcu.be/dJ3Ix). _Archives of Sexual Behavior_. [mentioned by [*PsyPost*](https://www.psypost.org/study-reveals-evolving-sexual-attitudes-in-china-influenced-by-age-urban-rural-divide-and-political-status/)]
 
 `2024`
 李堂军, 张巧显, 杨帆, 贾国伟, __刘江锐__ & 柯兵. 国家重点研发计划项目成果后评估试点实践研究. _中国科技资源导刊_.
