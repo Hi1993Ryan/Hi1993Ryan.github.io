@@ -1,0 +1,52 @@
+/* Homepage cohort chart: transparent PNGs from R; no card chrome */
+.profile .cohort-history {
+    margin: 1.1em 0 0.35em;
+    width: 100%;
+    max-width: 52rem;
+}
+
+.profile .cohort-history-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+    padding: 0;
+}
+
+.profile .cohort-history-img-dark {
+    display: none;
+}
+
+html[data-theme="dark"] .profile .cohort-history-img-light,
+body.dark .profile .cohort-history-img-light {
+    display: none;
+}
+
+html[data-theme="dark"] .profile .cohort-history-img-dark,
+body.dark .profile .cohort-history-img-dark {
+    display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) .profile .cohort-history-img-light {
+        display: none;
+    }
+    html:not([data-theme="light"]) .profile .cohort-history-img-dark {
+        display: block;
+    }
+}
+
+/* Keep avatar styling scoped so the chart is not rounded/shadowed */
+.profile img.profile-avatar {
+    display: inline-table;
+    border-radius: 15px;
+    border: 2px solid rgba(52, 152, 219, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: transparent;
+}
