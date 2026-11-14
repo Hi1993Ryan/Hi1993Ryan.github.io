@@ -93,7 +93,7 @@ draw <- function(th) {
   mtext("Illustrative outcome", side = 2, line = 2.8, las = 0, col = th$axis)
   title(main = "Generations Across China's Historical Time", adj = 0, line = 3, cex.main = 1.8, col.main = th$title)
   mtext(
-    "Curves are hypothetical. Event lines provide context, not causal estimates.",
+    "Curves are hypothetical. Event lines provide context.",
     side = 1, line = 3.65, adj = 0, cex = .83, col = th$caption
   )
 }
