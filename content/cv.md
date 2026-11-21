@@ -41,4 +41,4 @@ description: "个人履历简介；完整英文版见 CV (EN)。"
 
 &nbsp;
 
-完整英文履历：[CV (EN)](https://hi1993ryan.github.io/cv.pdf)
+完整英文履历：[CV (EN)](https://jiangruiliu.github.io/cv.pdf)

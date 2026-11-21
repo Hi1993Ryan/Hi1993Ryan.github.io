@@ -5,12 +5,12 @@ alwaysApply: true
 
 # 网站修改后自动提交与部署
 
-用户已授权：在本仓库（Hi1993Ryan.github.io）及关联的 md-cv 仓库完成网站相关修改后，**无需再单独要求**，应自动提交并推送到 GitHub 以触发部署。
+用户已授权：在本仓库（jiangruiliu.github.io）及关联的 md-cv 仓库完成网站相关修改后，**无需再单独要求**，应自动提交并推送到 GitHub 以触发部署。
 
 ## 适用仓库
 
-- 主站：`Hi1993Ryan.github.io` → `origin`（`https://github.com/Hi1993Ryan/Hi1993Ryan.github.io.git`）
-- 英文 CV：`md-cv` → `origin`（`https://github.com/Hi1993Ryan/md-cv.git`）
+- 主站：`jiangruiliu.github.io` → `origin`（`https://github.com/jiangruiliu/jiangruiliu.github.io.git`）
+- 英文 CV：`md-cv` → `origin`（`https://github.com/jiangruiliu/md-cv.git`）
 
 只 push 到 **origin**，不要 push 到 **upstream**。
 
@@ -55,4 +55,4 @@ git push origin main
 
 ## 部署说明
 
-主站 push 到 `main` 后，GitHub Actions（`Deploy Hugo site to Pages`）会自动发布到 https://hi1993ryan.github.io/ 。md-cv 为独立仓库，需单独 push 后才会更新 https://hi1993ryan.github.io/md-cv/（若通过该方式托管）。
+主站 push 到 `main` 后，GitHub Actions（`Deploy Hugo site to Pages`）会自动发布到 https://jiangruiliu.github.io/ 。md-cv 为独立仓库，需单独 push 后才会更新 https://jiangruiliu.github.io/md-cv/（若通过该方式托管）。
